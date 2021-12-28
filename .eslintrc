@@ -1,5 +1,5 @@
 {
-  "extends": "@pancakeswap/eslint-config-pancake",
+  "extends": "@buffet-dex/eslint-config-buffetswap",
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",
