@@ -10,7 +10,7 @@ it("renders correctly", () => {
       position: absolute;
       top: 0;
       left: 0;
-      background: #7645D9;
+      background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       height: 100%;
       -webkit-transition: width 200ms ease;
       transition: width 200ms ease;

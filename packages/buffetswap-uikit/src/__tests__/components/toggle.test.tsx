@@ -48,7 +48,7 @@ it("renders correctly", () => {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      background-color: #31D0AA;
+      background-color: #1FAD7A;
       border-radius: 24px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       cursor: pointer;
@@ -126,7 +126,7 @@ it("renders correctly scale sm", () => {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      background-color: #31D0AA;
+      background-color: #1FAD7A;
       border-radius: 24px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       cursor: pointer;

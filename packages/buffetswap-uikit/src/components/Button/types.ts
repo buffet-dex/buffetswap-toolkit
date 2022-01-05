@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { LayoutProps, SpaceProps } from "styled-system";
 
 export const scales = {
+  LG: "lg",
   MD: "md",
   SM: "sm",
   XS: "xs",

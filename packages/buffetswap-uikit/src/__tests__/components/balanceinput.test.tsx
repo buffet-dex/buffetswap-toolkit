@@ -31,7 +31,7 @@ it("renders correctly", () => {
     }
 
     .c5 {
-      color: #7A6EAA;
+      color: #202020;
       font-size: 12px;
       font-weight: 400;
       line-height: 1.5;
@@ -44,7 +44,7 @@ it("renders correctly", () => {
       border: 0;
       border-radius: 16px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
-      color: #280D5F;
+      color: #272727;
       display: block;
       font-size: 16px;
       height: 40px;
@@ -55,23 +55,23 @@ it("renders correctly", () => {
     }
 
     .c3::-webkit-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3::-moz-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3:-ms-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3::placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3:disabled {
-      background-color: #E9EAEB;
+      background-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       box-shadow: none;
       color: #BDC2C4;
       cursor: not-allowed;
@@ -100,19 +100,19 @@ it("renders correctly", () => {
     }
 
     .c4::-webkit-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4::-moz-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4:-ms-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4::placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4:focus:not(:disabled) {
@@ -184,14 +184,14 @@ it("renders correctly with unit prop", () => {
     }
 
     .c5 {
-      color: #280D5F;
+      color: #272727;
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
     }
 
     .c7 {
-      color: #7A6EAA;
+      color: #202020;
       font-size: 12px;
       font-weight: 400;
       line-height: 1.5;
@@ -204,7 +204,7 @@ it("renders correctly with unit prop", () => {
       border: 0;
       border-radius: 16px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
-      color: #280D5F;
+      color: #272727;
       display: block;
       font-size: 16px;
       height: 40px;
@@ -215,23 +215,23 @@ it("renders correctly with unit prop", () => {
     }
 
     .c3::-webkit-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3::-moz-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3:-ms-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3::placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3:disabled {
-      background-color: #E9EAEB;
+      background-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       box-shadow: none;
       color: #BDC2C4;
       cursor: not-allowed;
@@ -244,7 +244,7 @@ it("renders correctly with unit prop", () => {
     .c6 {
       margin-left: 4px;
       text-align: right;
-      color: #7A6EAA;
+      color: #202020;
       white-space: nowrap;
     }
 
@@ -267,19 +267,19 @@ it("renders correctly with unit prop", () => {
     }
 
     .c4::-webkit-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4::-moz-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4:-ms-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4::placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4:focus:not(:disabled) {
@@ -370,21 +370,21 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #7A6EAA;
+      fill: #202020;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
     }
 
     .c5 {
-      color: #280D5F;
+      color: #272727;
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
     }
 
     .c7 {
-      color: #7A6EAA;
+      color: #202020;
       font-size: 12px;
       font-weight: 400;
       line-height: 1.5;
@@ -397,7 +397,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       border: 0;
       border-radius: 16px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
-      color: #280D5F;
+      color: #272727;
       display: block;
       font-size: 16px;
       height: 40px;
@@ -408,23 +408,23 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
     }
 
     .c3::-webkit-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3::-moz-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3:-ms-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3::placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c3:disabled {
-      background-color: #E9EAEB;
+      background-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       box-shadow: none;
       color: #BDC2C4;
       cursor: not-allowed;
@@ -441,15 +441,14 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       align-items: center;
       border: 0;
       border-radius: 16px;
-      box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
       display: -ms-inline-flexbox;
       display: inline-flex;
       font-family: inherit;
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 700;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -463,10 +462,10 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       outline: 0;
       -webkit-transition: background-color 0.2s,opacity 0.2s;
       transition: background-color 0.2s,opacity 0.2s;
-      height: 32px;
-      padding: 0 16px;
+      height: 47px;
+      padding: 0 24px;
       background-color: transparent;
-      color: #1FC7D4;
+      color: #EF5823;
       box-shadow: none;
     }
 
@@ -484,8 +483,9 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
 
     .c9:disabled,
     .c9.pancake-button--disabled {
-      background-color: #E9EAEB;
-      border-color: #E9EAEB;
+      background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
+      opacity: 0.5;
+      border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       box-shadow: none;
       color: #BDC2C4;
       cursor: not-allowed;
@@ -494,6 +494,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
     .c10 {
       padding: 0;
       width: 32px;
+      background: none;
     }
 
     .c11 {
@@ -503,7 +504,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
     .c6 {
       margin-left: 4px;
       text-align: right;
-      color: #7A6EAA;
+      color: #202020;
       white-space: nowrap;
     }
 
@@ -526,19 +527,19 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
     }
 
     .c4::-webkit-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4::-moz-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4:-ms-input-placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4::placeholder {
-      color: #7A6EAA;
+      color: #202020;
     }
 
     .c4:focus:not(:disabled) {
