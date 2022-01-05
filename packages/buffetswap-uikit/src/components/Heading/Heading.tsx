@@ -8,22 +8,22 @@ const style = {
     fontSizeLg: "20px",
   },
   [scales.LG]: {
-    fontSize: "24px",
-    fontSizeLg: "24px",
+    fontSize: "30px",
+    fontSizeLg: "30px",
   },
   [scales.XL]: {
-    fontSize: "32px",
-    fontSizeLg: "40px",
+    fontSize: "38px",
+    fontSizeLg: "46px",
   },
   [scales.XXL]: {
-    fontSize: "48px",
-    fontSizeLg: "64px",
+    fontSize: "46px",
+    fontSizeLg: "46px",
   },
 };
 
 const Heading = styled(Text).attrs({ bold: true })<HeadingProps>`
   font-size: ${({ scale }) => style[scale || scales.MD].fontSize};
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.1;
 
   ${({ theme }) => theme.mediaQueries.lg} {

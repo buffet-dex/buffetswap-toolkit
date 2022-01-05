@@ -18,14 +18,14 @@ it("renders correctly", () => {
     }
 
     .c5 {
-      color: #280D5F;
+      color: #272727;
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
     }
 
     .c6 {
-      color: #280D5F;
+      color: #272727;
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
@@ -39,7 +39,7 @@ it("renders correctly", () => {
     }
 
     .c2 {
-      background-color: #7645D9;
+      background-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       border-radius: 16px 0 0 16px;
       color: #FFFFFF;
       padding: 12px;

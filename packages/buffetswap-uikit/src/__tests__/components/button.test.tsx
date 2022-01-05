@@ -13,15 +13,14 @@ it("renders correctly", () => {
       align-items: center;
       border: 0;
       border-radius: 16px;
-      box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
       display: -ms-inline-flexbox;
       display: inline-flex;
       font-family: inherit;
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 700;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -35,9 +34,9 @@ it("renders correctly", () => {
       outline: 0;
       -webkit-transition: background-color 0.2s,opacity 0.2s;
       transition: background-color 0.2s,opacity 0.2s;
-      height: 48px;
-      padding: 0 24px;
-      background-color: #1FC7D4;
+      height: 55px;
+      padding: 0 32px;
+      background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       color: white;
     }
 
@@ -55,8 +54,9 @@ it("renders correctly", () => {
 
     .c0:disabled,
     .c0.pancake-button--disabled {
-      background-color: #E9EAEB;
-      border-color: #E9EAEB;
+      background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
+      opacity: 0.5;
+      border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       box-shadow: none;
       color: #BDC2C4;
       cursor: not-allowed;

@@ -12,7 +12,7 @@ it("renders correctly", () => {
       left: 0px;
       width: 100%;
       height: 100%;
-      background-color: #280D5F99;
+      background-color: #27272799;
       -webkit-backdrop-filter: blur(2px);
       backdrop-filter: blur(2px);
       z-index: 20;

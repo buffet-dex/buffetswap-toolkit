@@ -1,34 +1,50 @@
+import { baseColors } from "../../theme/colors";
 import { scales, variants } from "./types";
 
 export const scaleVariants = {
+  [scales.LG]: {
+    height: "71px",
+  },
   [scales.MD]: {
-    height: "48px",
-    padding: "0 24px",
+    height: "55px",
+    padding: "0 32px",
   },
   [scales.SM]: {
-    height: "32px",
-    padding: "0 16px",
+    height: "47px",
+    padding: "0 24px",
   },
   [scales.XS]: {
-    height: "20px",
-    fontSize: "12px",
-    padding: "0 8px",
+    height: "26px",
+    fontSize: "14px",
+    padding: "4px 12px",
   },
 };
 
 export const styleVariants = {
   [variants.PRIMARY]: {
-    backgroundColor: "primary",
+    background: baseColors.secondary,
     color: "white",
   },
   [variants.SECONDARY]: {
-    backgroundColor: "transparent",
-    border: "2px solid",
-    borderColor: "primary",
-    boxShadow: "none",
     color: "primary",
+    boxShadow: "none",
+    position: "relative",
     ":disabled": {
       backgroundColor: "transparent",
+    },
+    "&::before": {
+      content: '""',
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      borderRadius: "16px",
+      padding: "3px",
+      background: baseColors.secondary,
+      "-webkit-mask": "linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0)",
+      "-webkit-mask-composite": "destination-out",
+      "mask-composite": "exclude",
     },
   },
   [variants.TERTIARY]: {

@@ -9,7 +9,7 @@ it("renders correctly", () => {
       .c0 {
       min-height: 20px;
       display: block;
-      background-color: #E9EAEB;
+      background-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       border-radius: 4px;
     }
 
@@ -35,7 +35,7 @@ it("renders correctly avatar", () => {
       .c0 {
       min-height: 20px;
       display: block;
-      background-color: #E9EAEB;
+      background-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       border-radius: 50%;
       width: 50px;
       height: 50px;
@@ -65,7 +65,7 @@ it("renders correctly waves animation", () => {
       .c0 {
       min-height: 20px;
       display: block;
-      background-color: #E9EAEB;
+      background-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       border-radius: 4px;
       width: 50px;
       height: 50px;

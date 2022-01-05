@@ -32,14 +32,14 @@ it("renders ConnectModal correctly", () => {
     }
 
     .c5 {
-      color: #280D5F;
+      color: #272727;
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
     }
 
     .c18 {
-      color: #280D5F;
+      color: #272727;
       font-size: 14px;
       font-weight: 400;
       line-height: 1.5;
@@ -47,7 +47,7 @@ it("renders ConnectModal correctly", () => {
     }
 
     .c21 {
-      color: #7A6EAA;
+      color: #202020;
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
@@ -57,7 +57,7 @@ it("renders ConnectModal correctly", () => {
 
     .c6 {
       font-size: 20px;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 1.1;
     }
 
@@ -68,15 +68,14 @@ it("renders ConnectModal correctly", () => {
       align-items: center;
       border: 0;
       border-radius: 16px;
-      box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
       display: -ms-inline-flexbox;
       display: inline-flex;
       font-family: inherit;
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 700;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -90,10 +89,10 @@ it("renders ConnectModal correctly", () => {
       outline: 0;
       -webkit-transition: background-color 0.2s,opacity 0.2s;
       transition: background-color 0.2s,opacity 0.2s;
-      height: 48px;
-      padding: 0 24px;
+      height: 55px;
+      padding: 0 32px;
       background-color: transparent;
-      color: #1FC7D4;
+      color: #EF5823;
       box-shadow: none;
     }
 
@@ -111,8 +110,9 @@ it("renders ConnectModal correctly", () => {
 
     .c7:disabled,
     .c7.pancake-button--disabled {
-      background-color: #E9EAEB;
-      border-color: #E9EAEB;
+      background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
+      opacity: 0.5;
+      border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       box-shadow: none;
       color: #BDC2C4;
       cursor: not-allowed;
@@ -125,15 +125,14 @@ it("renders ConnectModal correctly", () => {
       align-items: center;
       border: 0;
       border-radius: 16px;
-      box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
       display: -ms-inline-flexbox;
       display: inline-flex;
       font-family: inherit;
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 700;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -147,10 +146,10 @@ it("renders ConnectModal correctly", () => {
       outline: 0;
       -webkit-transition: background-color 0.2s,opacity 0.2s;
       transition: background-color 0.2s,opacity 0.2s;
-      height: 48px;
-      padding: 0 24px;
+      height: 55px;
+      padding: 0 32px;
       background-color: transparent;
-      color: #1FC7D4;
+      color: #EF5823;
       box-shadow: none;
       width: 100%;
       padding-top: 16px;
@@ -171,8 +170,9 @@ it("renders ConnectModal correctly", () => {
 
     .c15:disabled,
     .c15.pancake-button--disabled {
-      background-color: #E9EAEB;
-      border-color: #E9EAEB;
+      background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
+      opacity: 0.5;
+      border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       box-shadow: none;
       color: #BDC2C4;
       cursor: not-allowed;
@@ -185,15 +185,14 @@ it("renders ConnectModal correctly", () => {
       align-items: center;
       border: 0;
       border-radius: 16px;
-      box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
       display: -ms-inline-flexbox;
       display: inline-flex;
       font-family: inherit;
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 700;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -207,9 +206,9 @@ it("renders ConnectModal correctly", () => {
       outline: 0;
       -webkit-transition: background-color 0.2s,opacity 0.2s;
       transition: background-color 0.2s,opacity 0.2s;
-      height: 48px;
-      padding: 0 24px;
-      background-color: #7A6EAA;
+      height: 55px;
+      padding: 0 32px;
+      background-color: #202020;
       color: #FFFFFF;
       width: 100%;
     }
@@ -228,8 +227,9 @@ it("renders ConnectModal correctly", () => {
 
     .c22:disabled,
     .c22.pancake-button--disabled {
-      background-color: #E9EAEB;
-      border-color: #E9EAEB;
+      background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
+      opacity: 0.5;
+      border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       box-shadow: none;
       color: #BDC2C4;
       cursor: not-allowed;
@@ -238,13 +238,14 @@ it("renders ConnectModal correctly", () => {
     .c8 {
       padding: 0;
       width: 48px;
+      background: none;
     }
 
     .c9 {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #1FC7D4;
+      fill: #EF5823;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -254,7 +255,7 @@ it("renders ConnectModal correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #280D5F;
+      fill: #272727;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -265,7 +266,7 @@ it("renders ConnectModal correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #7A6EAA;
+      fill: #202020;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;

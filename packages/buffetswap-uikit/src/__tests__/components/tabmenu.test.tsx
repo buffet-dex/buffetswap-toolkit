@@ -74,7 +74,7 @@ it("renders correctly", () => {
       font-size: 16px;
       font-weight: 600;
       color: #FFFFFF;
-      background-color: #7A6EAA;
+      background-color: #202020;
     }
 
     .c5 {
@@ -97,7 +97,7 @@ it("renders correctly", () => {
       border-radius: 16px 16px 0 0;
       font-size: 16px;
       font-weight: 600;
-      color: #7A6EAA;
+      color: #202020;
       background-color: #eeeaf4;
     }
 
