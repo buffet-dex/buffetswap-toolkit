@@ -1,17 +1,44 @@
 import React from "react";
-import Svg from "../Svg";
 import { SvgProps } from "../types";
 
-const Icon: React.FC<SvgProps> = (props) => {
+const Icon: React.FC<SvgProps> = () => {
   return (
-    <Svg viewBox="0 0 24 24" {...props}>
-      <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V5H19V19Z" />
-      <path d="M11.25 7.72H6.25V9.22H11.25V7.72Z" />
-      <path d="M18 15.75H13V17.25H18V15.75Z" />
-      <path d="M18 13.25H13V14.75H18V13.25Z" />
-      <path d="M8 18H9.5V16H11.5V14.5H9.5V12.5H8V14.5H6V16H8V18Z" />
-      <path d="M14.09 10.95L15.5 9.54L16.91 10.95L17.97 9.89L16.56 8.47L17.97 7.06L16.91 6L15.5 7.41L14.09 6L13.03 7.06L14.44 8.47L13.03 9.89L14.09 10.95Z" />
-    </Svg>
+    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <g opacity="0.5">
+        <path
+          d="M2 6C2 4.93913 2.42143 3.92172 3.17157 3.17157C3.92172 2.42143 4.93913 2 6 2H18C19.0609 2 20.0783 2.42143 20.8284 3.17157C21.5786 3.92172 22 4.93913 22 6V11H2V6Z"
+          stroke="#202020"
+          fill="none"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path d="M18.5 16.5H15.5" stroke="#202020" strokeWidth="2" strokeLinecap="round" fill="none" />
+        <path
+          d="M12 11H22V18C22 19.0609 21.5786 20.0783 20.8284 20.8284C20.0783 21.5786 19.0609 22 18 22H12V11Z"
+          stroke="#202020"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        <path
+          d="M12 11H2V18C2 19.0609 2.42143 20.0783 3.17157 20.8284C3.92172 21.5786 4.93913 22 6 22H12V11Z"
+          stroke="#202020"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        <path
+          d="M7 16.5L5.5 15M5.5 18L7 16.5L5.5 18ZM7 16.5L8.5 15L7 16.5ZM7 16.5L8.5 18L7 16.5Z"
+          stroke="#202020"
+          strokeWidth="2"
+          strokeLinecap="round"
+          fill="none"
+        />
+      </g>
+    </svg>
   );
 };
 

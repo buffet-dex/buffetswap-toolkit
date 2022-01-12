@@ -5,6 +5,7 @@ const StyledSubMenuItems = styled(Flex)<{ $isMobileOnly: boolean }>`
   ${({ theme }) => theme.mediaQueries.sm} {
     ${({ $isMobileOnly }) => ($isMobileOnly ? "display:none" : "")};
   }
+  padding: 16px;
   flex-grow: 1;
   background-color: ${({ theme }) => `${theme.colors.backgroundAlt2}`};
   box-shadow: inset 0px -2px 0px -8px rgba(133, 133, 133, 0.1);

@@ -16,8 +16,11 @@ export const variants = {
   TEXT: "text",
   DANGER: "danger",
   SUBTLE: "subtle",
+  SUBTLE_PRIMARY: "subtlePrimary",
   SUCCESS: "success",
   LIGHT: "light",
+  MAX: "max",
+  GREY: "grey",
 } as const;
 
 export type Scale = typeof scales[keyof typeof scales];

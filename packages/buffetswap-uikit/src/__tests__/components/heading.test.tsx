@@ -9,14 +9,12 @@ it("renders correctly", () => {
       .c0 {
       color: #272727;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 1.5;
     }
 
     .c1 {
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 1.1;
+      font-size: 20px line-height:1.1;
     }
 
     @media screen and (min-width:968px) {

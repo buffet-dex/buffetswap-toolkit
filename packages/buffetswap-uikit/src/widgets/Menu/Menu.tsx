@@ -86,6 +86,7 @@ const Menu: React.FC<NavProps> = ({
   activeSubItem,
   langs,
   children,
+  buyCakeLabel,
 }) => {
   const { isMobile } = useMatchBreakpoints();
   const [showMenu, setShowMenu] = useState(true);
@@ -162,14 +163,19 @@ const Menu: React.FC<NavProps> = ({
                   color="textSubtleOpacity"
                 />
               </Box>
-              {globalMenu} {userMenu}
+              {userMenu} {globalMenu}
             </Flex>
           </StyledNavContainer>
         </StyledNav>
       </FixedContainer>
       {subLinks && (
-        <Flex justifyContent="space-around">
-          <SubMenuItems items={subLinksWithoutMobile} mt={`${totalTopMenuHeight + 1}px`} activeItem={activeSubItem} />
+        <Flex maxWidth="1200px" margin="0 auto" justifyContent="space-around">
+          <SubMenuItems
+            justifyContent="flex-start"
+            items={subLinksWithoutMobile}
+            mt={`${totalTopMenuHeight + 1}px`}
+            activeItem={activeSubItem}
+          />
 
           {subLinksMobileOnly?.length > 0 && (
             <SubMenuItems
@@ -184,7 +190,15 @@ const Menu: React.FC<NavProps> = ({
       <BodyWrapper mt={!subLinks ? `${totalTopMenuHeight + 1}px` : "0"}>
         <Inner isPushed={false} showMenu={showMenu}>
           {children}
-          <Footer items={footerLinks} mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]} />
+          <Footer
+            langs={langs}
+            setLang={setLang}
+            currentLang={currentLang}
+            cakePriceUsd={cakePriceUsd}
+            items={footerLinks}
+            buyCakeLabel={buyCakeLabel}
+            mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]}
+          />
         </Inner>
       </BodyWrapper>
       {isMobile && <BottomNav items={links} activeItem={activeItem} activeSubItem={activeSubItem} />}

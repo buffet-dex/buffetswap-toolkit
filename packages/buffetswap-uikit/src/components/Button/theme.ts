@@ -16,7 +16,7 @@ export const scaleVariants = {
   [scales.XS]: {
     height: "26px",
     fontSize: "14px",
-    padding: "4px 12px",
+    padding: "6px 12px",
   },
 };
 
@@ -55,6 +55,12 @@ export const styleVariants = {
   [variants.SUBTLE]: {
     backgroundColor: "textSubtle",
     color: "backgroundAlt",
+    borderRadius: "28px",
+  },
+  [variants.SUBTLE_PRIMARY]: {
+    backgroundColor: "primary",
+    color: "backgroundAlt",
+    borderRadius: "28px",
   },
   [variants.DANGER]: {
     backgroundColor: "failure",
@@ -73,5 +79,23 @@ export const styleVariants = {
     backgroundColor: "input",
     color: "textSubtle",
     boxShadow: "none",
+  },
+  [variants.MAX]: {
+    backgroundColor: "#1FAD7A",
+    color: "white",
+    borderRadius: "8px",
+  },
+  [variants.GREY]: {
+    backgroundColor: "rgba(239, 88, 35, 0.1)",
+    color: "primary",
+    borderRadius: "12px",
+    "&:disabled,&.pancake-button--disabled": {
+      background: "rgba(239, 88, 35, 0.1)",
+      opacity: "0.5",
+      borderColor: "none",
+      boxShadow: "none",
+      color: "primary",
+      cursor: "not-allowed",
+    },
   },
 };
