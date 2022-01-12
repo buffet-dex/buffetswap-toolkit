@@ -12,31 +12,29 @@ it("renders correctly", () => {
       background-color: #eeeaf4;
       border: 0;
       border-radius: 16px;
-      box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       color: #272727;
       display: block;
       font-size: 16px;
-      height: 40px;
+      height: 48px;
       outline: 0;
       padding: 0 16px;
       width: 100%;
-      border: 1px solid #d7caec;
     }
 
     .c0::-webkit-input-placeholder {
-      color: #202020;
+      color: rgba(32,32,32,0.5);
     }
 
     .c0::-moz-placeholder {
-      color: #202020;
+      color: rgba(32,32,32,0.5);
     }
 
     .c0:-ms-input-placeholder {
-      color: #202020;
+      color: rgba(32,32,32,0.5);
     }
 
     .c0::placeholder {
-      color: #202020;
+      color: rgba(32,32,32,0.5);
     }
 
     .c0:disabled {

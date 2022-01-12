@@ -20,7 +20,7 @@ it("renders correctly", () => {
     .c5 {
       color: #272727;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 1.5;
     }
 
@@ -43,6 +43,10 @@ it("renders correctly", () => {
       border-radius: 16px 0 0 16px;
       color: #FFFFFF;
       padding: 12px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
     }
 
     .c4 {

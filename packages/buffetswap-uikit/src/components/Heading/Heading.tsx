@@ -22,13 +22,21 @@ const style = {
 };
 
 const Heading = styled(Text).attrs({ bold: true })<HeadingProps>`
-  font-size: ${({ scale }) => style[scale || scales.MD].fontSize};
-  font-weight: 700;
+  font-size: ${({ scale, fontSize }) => {
+    if (fontSize) {
+      return fontSize;
+    }
+    return style[scale || scales.MD].fontSize;
+  }}
   line-height: 1.1;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    font-size: ${({ scale }) => style[scale || scales.MD].fontSizeLg};
-  }
+    font-size: ${({ scale, fontSize }) => {
+      if (fontSize) {
+        return fontSize;
+      }
+      return style[scale || scales.MD].fontSizeLg;
+    }}
 `;
 
 Heading.defaultProps = {

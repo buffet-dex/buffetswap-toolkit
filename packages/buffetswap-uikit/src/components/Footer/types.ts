@@ -8,11 +8,11 @@ export type FooterLinkType = {
 
 export type FooterProps = {
   items: FooterLinkType[];
-  buyCakeLabel?: string;
+  buyCakeLabel: string;
   isDark?: boolean;
   toggleTheme?: (isDark: boolean) => void;
-  cakePriceUsd?: number;
-  currentLang?: string;
-  langs?: Language[];
-  setLang?: (lang: Language) => void;
+  cakePriceUsd: number;
+  currentLang: string;
+  langs: Language[];
+  setLang: (lang: Language) => void;
 } & FlexProps;

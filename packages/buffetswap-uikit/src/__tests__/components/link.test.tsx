@@ -9,7 +9,7 @@ it("renders link correctly", () => {
       .c0 {
       color: #EF5823;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 1.5;
     }
 
@@ -50,7 +50,7 @@ it("renders link external link correctly", () => {
       .c0 {
       color: #EF5823;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 1.5;
     }
 

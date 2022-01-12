@@ -26,16 +26,6 @@ it("renders correctly", () => {
       margin: 0;
     }
 
-    .c0:after {
-      border-radius: 50%;
-      content: "";
-      height: 20px;
-      left: 6px;
-      position: absolute;
-      top: 6px;
-      width: 20px;
-    }
-
     .c0:hover:not(:disabled):not(:checked) {
       box-shadow: 0px 0px 0px 1px #7645D9,0px 0px 0px 4px rgba(118,69,217,0.6);
     }
@@ -46,7 +36,7 @@ it("renders correctly", () => {
     }
 
     .c0:checked {
-      background-color: #1FAD7A;
+      background-color: #f2c00d;
     }
 
     .c0:checked:after {

@@ -9,7 +9,7 @@ it("renders correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c3 {
-      background-color: #FFFFFF;
+      background-color: #EF5823;
       border-radius: 50%;
       cursor: pointer;
       height: 26px;
@@ -87,7 +87,7 @@ it("renders correctly scale sm", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c3 {
-      background-color: #FFFFFF;
+      background-color: #EF5823;
       border-radius: 50%;
       cursor: pointer;
       height: 16px;

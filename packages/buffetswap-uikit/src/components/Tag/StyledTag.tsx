@@ -8,15 +8,21 @@ interface ThemedProps extends TagProps {
   theme: DefaultTheme;
 }
 
-const getOutlineStyles = ({ outline, theme, variant: variantKey = variants.PRIMARY }: ThemedProps) => {
+const getOutlineStyles = ({
+  outline,
+  border,
+  background,
+  theme,
+  variant: variantKey = variants.PRIMARY,
+}: ThemedProps) => {
   if (outline) {
     const themeColorKey = styleVariants[variantKey].backgroundColor as keyof Colors;
     const color = theme.colors[themeColorKey];
 
     return `
       color: ${color};
-      background: ${theme.colors.background};
-      border: 2px solid ${color};
+      background: ${background || theme.colors.background};
+      border: ${border || "1px"} solid ${color};
     `;
   }
 

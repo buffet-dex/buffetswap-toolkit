@@ -16,7 +16,7 @@ it("renders correctly", () => {
     <DocumentFragment>
       .c0 {
       background-color: #EFF4F5;
-      border-radius: 16px;
+      border-radius: 28px;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
       display: -ms-inline-flexbox;
@@ -30,16 +30,12 @@ it("renders correctly", () => {
       -webkit-flex: auto;
       -ms-flex: auto;
       flex: auto;
+      box-shadow: "none";
     }
 
     .c0 > button + button,
     .c0 > a + a {
       margin-left: 2px;
-    }
-
-    .c0 > button,
-    .c0 a {
-      box-shadow: none;
     }
 
     .c1 {

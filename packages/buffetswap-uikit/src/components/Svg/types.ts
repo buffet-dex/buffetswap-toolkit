@@ -7,6 +7,14 @@ export interface SvgProps extends SVGAttributes<HTMLOrSVGElement>, SpaceProps {
   theme?: DefaultTheme;
   spin?: boolean;
 }
+export interface ILogoImg {
+  src?: string;
+  scale?: "sm" | "md" | "lg";
+  size?: number;
+  height?: string;
+  fill?: string;
+  className?: string;
+}
 
 export type IconComponentType = {
   iconName: string;

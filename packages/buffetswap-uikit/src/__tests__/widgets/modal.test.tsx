@@ -14,14 +14,12 @@ it("renders correctly", () => {
       .c5 {
       color: #272727;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 1.5;
     }
 
     .c6 {
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 1.1;
+      font-size: 20px line-height:1.1;
     }
 
     .c0 {
@@ -43,7 +41,7 @@ it("renders correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #EF5823;
+      fill: rgba(32,32,32,0.5);
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -165,7 +163,13 @@ it("renders correctly", () => {
       .c1 {
         width: auto;
         min-width: 320px;
-        max-width: 100%;
+        margin: 0 10px;
+      }
+    }
+
+    @media screen and (min-width:852px) {
+      .c1 {
+        width: 799px;
       }
     }
 
@@ -192,7 +196,7 @@ it("renders correctly", () => {
           >
             <svg
               class="c9"
-              color="primary"
+              color="textSubtleOpacity"
               viewBox="0 0 24 24"
               width="20px"
               xmlns="http://www.w3.org/2000/svg"

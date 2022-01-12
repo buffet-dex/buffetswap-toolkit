@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 import Flex from "../../../components/Box/Flex";
-import { LogoWithTextIcon } from "../../../components/Svg";
+import { LogoIcon, BuffetLogoWithTextIcon } from "../../../components/Svg";
 
 interface Props {
   isDark: boolean;
@@ -48,7 +48,8 @@ const Logo: React.FC<Props> = ({ href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoWithTextIcon className="desktop-icon" />
+      <LogoIcon className="mobile-icon" />
+      <BuffetLogoWithTextIcon fill="black" className="desktop-icon" />
     </>
   );
 

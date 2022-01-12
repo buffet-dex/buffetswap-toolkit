@@ -19,7 +19,7 @@ interface ThemedIconLabel {
 const getThemeColor = ({ theme, variant = variants.INFO }: ThemedIconLabel) => {
   switch (variant) {
     case variants.DANGER:
-      return theme.colors.failure;
+      return theme.colors.danger;
     case variants.WARNING:
       return theme.colors.warning;
     case variants.SUCCESS:
@@ -49,6 +49,7 @@ const IconLabel = styled.div<ThemedIconLabel>`
   border-radius: 16px 0 0 16px;
   color: ${({ theme }) => theme.alert.background};
   padding: 12px;
+  display: flex;
 `;
 
 const withHandlerSpacing = 32 + 12 + 8; // button size + inner spacing + handler position
