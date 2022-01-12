@@ -14,6 +14,7 @@ import {
   StyledText,
   StyledSocialLinks,
   StyledToolsContainer,
+  StyledIconMobileContainer,
 } from "./styles";
 import { FooterProps } from "./types";
 
@@ -38,7 +39,10 @@ const MenuItem: React.FC<FooterProps> = ({
   return (
     <StyledFooter p={["24px 16px", null, "32px 24px 24px 64px;"]} {...props} justifyContent="center">
       <Flex flexDirection={["column", null, "row"]} justifyContent="space-between" width={["100%", null, "1370px"]}>
-        <Box display={["none", null, "block"]}>
+        <StyledIconMobileContainer display={["block", null, "none"]}>
+          <BuffetLogoWithTextIcon size={130} />
+        </StyledIconMobileContainer>
+        <Box display={["none", null, "block"]} mr={["10px"]}>
           <BuffetLogoWithTextIcon size={62} />
         </Box>
         <Flex
@@ -68,11 +72,13 @@ const MenuItem: React.FC<FooterProps> = ({
             </StyledList>
           ))}
         </Flex>
-        {/* <Box display={["none", null, "block"]}>
-            <BuffetLogoWithTextIcon size={62} />
-          </Box> */}
         <Flex flexDirection="column">
-          <StyledToolsContainer order={[1, null, 3]} flexDirection="row" justifyContent="space-between">
+          <StyledToolsContainer
+            alignItems="baseline"
+            order={[1, null, 3]}
+            flexDirection="row"
+            justifyContent="space-between"
+          >
             <Flex order={[2, null, 1]} alignItems="center">
               <LangSelector
                 currentLang={currentLang}

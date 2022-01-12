@@ -35,6 +35,8 @@ export const StyledListItem = styled.li`
 
 export const StyledIconMobileContainer = styled(Box)`
   margin-bottom: 24px;
+  border-bottom-width: 1px solid;
+  border-color: ${darkColors.cardBorder};
 `;
 
 export const StyledToolsContainer = styled(Flex)`

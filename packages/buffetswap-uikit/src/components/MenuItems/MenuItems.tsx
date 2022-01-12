@@ -9,6 +9,7 @@ import { MenuItemsProps } from "./types";
 
 export const StyledMenuItemContainer = styled(Flex)`
   gap: 12px;
+  align-items: center;
   ${({ theme }) => theme.mediaQueries.md} {
     gap: 52px;
   }

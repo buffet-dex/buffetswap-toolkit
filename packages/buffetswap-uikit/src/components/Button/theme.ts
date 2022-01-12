@@ -98,4 +98,9 @@ export const styleVariants = {
       cursor: "not-allowed",
     },
   },
+  [variants.CALCULATOR]: {
+    backgroundColor: "primary",
+    color: "white",
+    borderRadius: "12px",
+  },
 };

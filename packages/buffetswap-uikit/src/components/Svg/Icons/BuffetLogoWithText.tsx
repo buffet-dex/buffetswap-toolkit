@@ -19,15 +19,31 @@ const getScaleSize = ({ scale, size }: ILogoImg) => {
   return `${size}px`;
 };
 
+const Wrapper = styled(Flex)<{ isResponsive: boolean }>`
+
+  width: 32px;
+
+  svg{
+    display: ${(props) => (props.isResponsive ? "none" : "block")} ;
+   }
+  ${({ theme }) => theme.mediaQueries.nav} {
+    width: 160px;
+    svg{
+      display: block;
+     }
+  }
+}
+`;
+
 const LogoImg = styled.img<ILogoImg>`
   width: ${getScaleSize};
-  height: ${(props) => props.height};
+  height: ${(props) => `${props.height}px`};
   margin-right: 8px;
 `;
 
-const Logo: React.FC<ILogoImg> = ({ src, fill, size, height, scale }) => {
+const Logo: React.FC<ILogoImg> = ({ src, fill, size, height, scale, isResponsive = true }) => {
   return (
-    <Flex height="auto" alignItems="center" flexDirection="row">
+    <Wrapper isResponsive={isResponsive} height="auto" alignItems="center" flexDirection="row">
       {src && <LogoImg height={height} size={size} scale={scale} src={src} alt="" />}
       <svg width="59" height="17" viewBox="0 0 59 17" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -35,7 +51,7 @@ const Logo: React.FC<ILogoImg> = ({ src, fill, size, height, scale }) => {
           fill={fill}
         />
       </svg>
-    </Flex>
+    </Wrapper>
   );
 };
 
