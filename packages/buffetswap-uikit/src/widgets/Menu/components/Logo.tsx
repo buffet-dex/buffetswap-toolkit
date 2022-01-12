@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 import Flex from "../../../components/Box/Flex";
-import { LogoIcon, BuffetLogoWithTextIcon } from "../../../components/Svg";
+import { BuffetLogoWithTextIcon } from "../../../components/Svg";
+import { ILogoImg } from "../../../components/Svg/types";
 
-interface Props {
+interface Props extends ILogoImg {
   isDark: boolean;
   href: string;
 }
@@ -44,12 +45,11 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const Logo: React.FC<Props> = ({ href }) => {
+const Logo: React.FC<Props> = ({ href, ...props }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
-      <BuffetLogoWithTextIcon fill="black" className="desktop-icon" />
+      <BuffetLogoWithTextIcon {...props} fill="black" />
     </>
   );
 

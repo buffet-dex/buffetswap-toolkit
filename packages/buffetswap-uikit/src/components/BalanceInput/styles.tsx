@@ -30,6 +30,8 @@ export const StyledInput = styled(Input)<{ textAlign?: string }>`
   box-shadow: none;
   padding-left: 0;
   padding-right: 0;
+  font-size: 30px;
+  font-weight: 700;
   text-align: ${({ textAlign = "right" }) => textAlign};
   border: none;
 

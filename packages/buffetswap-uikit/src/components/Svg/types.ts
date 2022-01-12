@@ -14,6 +14,7 @@ export interface ILogoImg {
   height?: string;
   fill?: string;
   className?: string;
+  isResponsive?: boolean;
 }
 
 export type IconComponentType = {

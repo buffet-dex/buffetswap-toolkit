@@ -31,11 +31,12 @@ it("renders correctly", () => {
     }
 
     .c5 {
-      color: #202020;
-      font-size: 12px;
-      font-weight: 400;
+      color: rgba(32,32,32,0.5);
+      font-size: 16px;
+      font-weight: 700;
       line-height: 1.5;
-      font-size: 12px;
+      padding-right: 48px;
+      font-size: 16px;
       text-align: right;
     }
 
@@ -93,6 +94,8 @@ it("renders correctly", () => {
       box-shadow: none;
       padding-left: 0;
       padding-right: 0;
+      font-size: 30px;
+      font-weight: 700;
       text-align: right;
       border: none;
     }
@@ -141,8 +144,8 @@ it("renders correctly", () => {
             </div>
             <div
               class="c5"
-              color="textSubtle"
-              font-size="12px"
+              color="textSubtleOpacity"
+              font-size="16px"
             >
               15 USD
             </div>
@@ -189,11 +192,12 @@ it("renders correctly with unit prop", () => {
     }
 
     .c7 {
-      color: #202020;
-      font-size: 12px;
-      font-weight: 400;
+      color: rgba(32,32,32,0.5);
+      font-size: 16px;
+      font-weight: 700;
       line-height: 1.5;
-      font-size: 12px;
+      padding-right: 48px;
+      font-size: 16px;
       text-align: right;
     }
 
@@ -258,6 +262,8 @@ it("renders correctly with unit prop", () => {
       box-shadow: none;
       padding-left: 0;
       padding-right: 0;
+      font-size: 30px;
+      font-weight: 700;
       text-align: right;
       border: none;
     }
@@ -312,8 +318,8 @@ it("renders correctly with unit prop", () => {
             </div>
             <div
               class="c7"
-              color="textSubtle"
-              font-size="12px"
+              color="textSubtleOpacity"
+              font-size="16px"
             >
               15 USD
             </div>
@@ -336,7 +342,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
   );
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
-      .c8 {
+      .c7 {
       padding-left: 12px;
     }
 
@@ -362,7 +368,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       align-items: center;
     }
 
-    .c12 {
+    .c11 {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
@@ -379,12 +385,13 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       line-height: 1.5;
     }
 
-    .c7 {
-      color: #202020;
-      font-size: 12px;
-      font-weight: 400;
+    .c12 {
+      color: rgba(32,32,32,0.5);
+      font-size: 16px;
+      font-weight: 700;
       line-height: 1.5;
-      font-size: 12px;
+      padding-right: 48px;
+      font-size: 16px;
       text-align: right;
     }
 
@@ -428,7 +435,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       box-shadow: 0px 0px 0px 1px #7645D9,0px 0px 0px 4px rgba(118,69,217,0.6);
     }
 
-    .c9 {
+    .c8 {
       -webkit-align-items: center;
       -webkit-box-align: center;
       -ms-flex-align: center;
@@ -463,11 +470,11 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       box-shadow: none;
     }
 
-    .c9:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+    .c8:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
       opacity: 0.65;
     }
 
-    .c9:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+    .c8:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
       opacity: 0.85;
       -webkit-transform: translateY(1px);
       -ms-transform: translateY(1px);
@@ -475,8 +482,8 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       box-shadow: none;
     }
 
-    .c9:disabled,
-    .c9.pancake-button--disabled {
+    .c8:disabled,
+    .c8.pancake-button--disabled {
       background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       opacity: 0.5;
       border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
@@ -485,13 +492,13 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       cursor: not-allowed;
     }
 
-    .c10 {
+    .c9 {
       padding: 0;
       width: 32px;
       background: none;
     }
 
-    .c11 {
+    .c10 {
       width: 16px;
     }
 
@@ -516,6 +523,8 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       box-shadow: none;
       padding-left: 0;
       padding-right: 0;
+      font-size: 30px;
+      font-weight: 700;
       text-align: right;
       border: none;
     }
@@ -567,34 +576,46 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
               >
                 CAKE
               </div>
+              <div
+                class="c7 c2"
+              >
+                <button
+                  class="c8 c9 c10"
+                  scale="sm"
+                >
+                  <svg
+                    class="c11"
+                    color="textSubtle"
+                    viewBox="0 0 26 26"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      fill="black"
+                      fill-opacity="0.05"
+                      height="26"
+                      rx="13"
+                      transform="rotate(-180 26 26)"
+                      width="26"
+                      x="26"
+                      y="26"
+                    />
+                    <path
+                      d="M17.2374 7.26244L15.1449 9.35494C14.9049 9.59494 15.0699 9.99994 15.4074 9.99994H16.7499V15.1599C16.7499 15.9099 16.2474 16.6074 15.5049 16.7274C14.5674 16.8849 13.7499 16.1574 13.7499 15.2499V10.1274C13.7499 8.55994 12.6024 7.16494 11.0424 7.01494C10.6258 6.97389 10.2052 7.02054 9.80767 7.15188C9.41016 7.28322 9.04457 7.49635 8.73442 7.77753C8.42426 8.05872 8.17643 8.40174 8.00686 8.7845C7.8373 9.16727 7.74977 9.5813 7.7499 9.99994V15.2499H6.4074C6.0699 15.2499 5.9049 15.6549 6.1449 15.8874L8.2374 17.9799C8.3874 18.1299 8.6199 18.1299 8.7699 17.9799L10.8624 15.8874C10.9142 15.8346 10.9492 15.7675 10.963 15.6948C10.9768 15.6221 10.9688 15.5469 10.9399 15.4787C10.911 15.4105 10.8626 15.3524 10.8008 15.3117C10.7389 15.271 10.6664 15.2495 10.5924 15.2499H9.2499V10.0899C9.2499 9.33994 9.7524 8.64244 10.4949 8.52244C11.4324 8.36494 12.2499 9.09244 12.2499 9.99994V15.1224C12.2499 16.6899 13.3974 18.0849 14.9574 18.2349C16.7424 18.4074 18.2499 17.0049 18.2499 15.2499V9.99994H19.5924C19.9299 9.99994 20.0949 9.59494 19.8549 9.36244L17.7624 7.26994C17.6199 7.11994 17.3799 7.11994 17.2374 7.26244Z"
+                      fill="black"
+                      fill-opacity="0.5"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
             <div
-              class="c7"
-              color="textSubtle"
-              font-size="12px"
+              class="c12"
+              color="textSubtleOpacity"
+              font-size="16px"
             >
               15 USD
             </div>
-          </div>
-          <div
-            class="c8 c2"
-          >
-            <button
-              class="c9 c10 c11"
-              scale="sm"
-            >
-              <svg
-                class="c12"
-                color="textSubtle"
-                viewBox="0 0 24 25"
-                width="20px"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 17.01V11C16 10.45 15.55 10 15 10C14.45 10 14 10.45 14 11V17.01H12.21C11.76 17.01 11.54 17.55 11.86 17.86L14.65 20.64C14.85 20.83 15.16 20.83 15.36 20.64L18.15 17.86C18.47 17.55 18.24 17.01 17.8 17.01H16ZM8.65003 3.35002L5.86003 6.14002C5.54003 6.45002 5.76003 6.99002 6.21003 6.99002H8.00003V13C8.00003 13.55 8.45003 14 9.00003 14C9.55003 14 10 13.55 10 13V6.99002H11.79C12.24 6.99002 12.46 6.45002 12.14 6.14002L9.35003 3.35002C9.16003 3.16002 8.84003 3.16002 8.65003 3.35002Z"
-                />
-              </svg>
-            </button>
           </div>
         </div>
       </div>

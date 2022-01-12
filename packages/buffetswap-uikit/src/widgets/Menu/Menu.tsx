@@ -138,7 +138,7 @@ const Menu: React.FC<NavProps> = ({
         <StyledNav>
           <StyledNavContainer>
             <Flex>
-              <Logo isDark={isDark} href={homeLink?.href ?? "/"} />
+              <Logo size={60} isDark={isDark} href={homeLink?.href ?? "/"} />
               {!isMobile && (
                 <MenuItems
                   ml={["24px", null, null, "68px", null, null, "137px"]}

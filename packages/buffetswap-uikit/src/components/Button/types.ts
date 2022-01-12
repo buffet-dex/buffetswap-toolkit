@@ -21,6 +21,7 @@ export const variants = {
   LIGHT: "light",
   MAX: "max",
   GREY: "grey",
+  CALCULATOR: "calculator",
 } as const;
 
 export type Scale = typeof scales[keyof typeof scales];
