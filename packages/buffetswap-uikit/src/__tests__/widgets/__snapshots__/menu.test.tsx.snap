@@ -7,7 +7,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c10 {
-  margin-left: 24px;
+  margin-left: 20px;
 }
 
 .c12 {
@@ -24,52 +24,40 @@ exports[`renders correctly 1`] = `
 }
 
 .c32 {
-  margin-right: 12px;
-}
-
-.c36 {
-  margin-top: 4px;
-  margin-right: 16px;
-}
-
-.c45 {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.c47 {
+.c34 {
   margin-top: 95px;
   padding-left: 12px;
 }
 
-.c50 {
+.c37 {
   margin-right: 20px;
 }
 
-.c55 {
+.c42 {
   margin-top: 0;
 }
 
-.c58 {
+.c45 {
   padding: 24px 16px;
   margin-bottom: 44px;
 }
 
-.c61 {
+.c48 {
   width: 100%;
 }
 
-.c63 {
+.c50 {
   display: block;
+  padding-bottom: 10px;
 }
 
-.c66 {
+.c54 {
   display: none;
   margin-right: 10px;
-}
-
-.c83 {
-  margin-bottom: 24px;
 }
 
 .c3 {
@@ -119,7 +107,7 @@ exports[`renders correctly 1`] = `
   align-items: center;
 }
 
-.c46 {
+.c33 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -130,7 +118,7 @@ exports[`renders correctly 1`] = `
   justify-content: space-around;
 }
 
-.c48 {
+.c35 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -141,7 +129,7 @@ exports[`renders correctly 1`] = `
   justify-content: flex-start;
 }
 
-.c52 {
+.c39 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -152,7 +140,7 @@ exports[`renders correctly 1`] = `
   justify-content: flex-end;
 }
 
-.c59 {
+.c46 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -163,7 +151,7 @@ exports[`renders correctly 1`] = `
   justify-content: center;
 }
 
-.c62 {
+.c49 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -177,7 +165,7 @@ exports[`renders correctly 1`] = `
   justify-content: space-between;
 }
 
-.c68 {
+.c56 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -188,7 +176,7 @@ exports[`renders correctly 1`] = `
   justify-content: space-around;
 }
 
-.c75 {
+.c63 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -198,7 +186,7 @@ exports[`renders correctly 1`] = `
   flex-direction: column;
 }
 
-.c76 {
+.c64 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -207,9 +195,9 @@ exports[`renders correctly 1`] = `
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
-  -webkit-order: 1;
-  -ms-flex-order: 1;
-  order: 1;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
@@ -219,7 +207,7 @@ exports[`renders correctly 1`] = `
   justify-content: space-between;
 }
 
-.c78 {
+.c66 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -233,7 +221,7 @@ exports[`renders correctly 1`] = `
   align-items: center;
 }
 
-.c84 {
+.c75 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -251,7 +239,7 @@ exports[`renders correctly 1`] = `
   align-items: center;
 }
 
-.c88 {
+.c81 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -281,29 +269,7 @@ exports[`renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.c34 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  fill: #272727;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  margin-right: 8px;
-}
-
-.c39 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  fill: rgba(32,32,32,0.5);
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  margin-right: 0.5rem;
-}
-
-.c54 {
+.c41 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
@@ -314,7 +280,7 @@ exports[`renders correctly 1`] = `
   margin-right: 4px;
 }
 
-.c80 {
+.c69 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
@@ -325,12 +291,35 @@ exports[`renders correctly 1`] = `
   margin-right: 0.5rem;
 }
 
+.c77 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  fill: #272727;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
 .c8 {
-  width: 32px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .c8 svg {
   display: none;
+}
+
+.c52 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.c52 svg {
+  display: block;
 }
 
 .c9 {
@@ -339,13 +328,13 @@ exports[`renders correctly 1`] = `
   margin-right: 8px;
 }
 
-.c65 {
-  width: 130px;
+.c53 {
+  width: 32px;
   height: undefinedpx;
   margin-right: 8px;
 }
 
-.c67 {
+.c55 {
   width: 62px;
   height: undefinedpx;
   margin-right: 8px;
@@ -367,49 +356,35 @@ exports[`renders correctly 1`] = `
   font-size: 14px;
 }
 
-.c35 {
-  color: #202020;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-}
-
-.c40 {
-  color: rgba(32,32,32,0.5);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.c71 {
+.c59 {
   color: #272727;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
 
-.c74 {
+.c62 {
   color: #EB4D4D;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
 
-.c81 {
+.c70 {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
 
-.c85 {
+.c78 {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
 }
 
-.c90 {
+.c83 {
   color: #EF5823;
   font-size: 16px;
   font-weight: 700;
@@ -417,7 +392,7 @@ exports[`renders correctly 1`] = `
   margin-right: 24px;
 }
 
-.c92 {
+.c85 {
   color: #EF5823;
   font-size: 16px;
   font-weight: 700;
@@ -513,65 +488,7 @@ exports[`renders correctly 1`] = `
   margin-left: 8px;
 }
 
-.c38 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 16px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-family: inherit;
-  font-size: 18px;
-  font-weight: 700;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-letter-spacing: 0.03em;
-  -moz-letter-spacing: 0.03em;
-  -ms-letter-spacing: 0.03em;
-  letter-spacing: 0.03em;
-  line-height: 1;
-  opacity: 1;
-  outline: 0;
-  -webkit-transition: background-color 0.2s,opacity 0.2s;
-  transition: background-color 0.2s,opacity 0.2s;
-  height: 26px;
-  font-size: 14px;
-  padding: 6px 12px;
-  background-color: transparent;
-  color: #EF5823;
-  box-shadow: none;
-}
-
-.c38:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
-  opacity: 0.65;
-}
-
-.c38:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
-  opacity: 0.85;
-  -webkit-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  transform: translateY(1px);
-  box-shadow: none;
-}
-
-.c38:disabled,
-.c38.pancake-button--disabled {
-  background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
-  opacity: 0.5;
-  border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
-  box-shadow: none;
-  color: #BDC2C4;
-  cursor: not-allowed;
-}
-
-.c43 {
+.c68 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -604,15 +521,15 @@ exports[`renders correctly 1`] = `
   background-color: transparent;
   color: #EF5823;
   box-shadow: none;
-  width: sm;
-  height: sm;
+  height: 32px;
+  padding: 0 26px 0 0;
 }
 
-.c43:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+.c68:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
   opacity: 0.65;
 }
 
-.c43:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+.c68:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
   opacity: 0.85;
   -webkit-transform: translateY(1px);
   -ms-transform: translateY(1px);
@@ -620,8 +537,65 @@ exports[`renders correctly 1`] = `
   box-shadow: none;
 }
 
-.c43:disabled,
-.c43.pancake-button--disabled {
+.c68:disabled,
+.c68.pancake-button--disabled {
+  background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
+  opacity: 0.5;
+  border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
+  box-shadow: none;
+  color: #BDC2C4;
+  cursor: not-allowed;
+}
+
+.c73 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.03em;
+  -moz-letter-spacing: 0.03em;
+  -ms-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0;
+  -webkit-transition: background-color 0.2s,opacity 0.2s;
+  transition: background-color 0.2s,opacity 0.2s;
+  height: 47px;
+  padding: 0 24px;
+  background-color: transparent;
+  color: #EF5823;
+  box-shadow: none;
+}
+
+.c73:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+  opacity: 0.65;
+}
+
+.c73:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+  opacity: 0.85;
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.c73:disabled,
+.c73.pancake-button--disabled {
   background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
   opacity: 0.5;
   border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
@@ -658,11 +632,11 @@ exports[`renders correctly 1`] = `
   outline: 0;
   -webkit-transition: background-color 0.2s,opacity 0.2s;
   transition: background-color 0.2s,opacity 0.2s;
-  height: 55px;
-  padding: 0 32px;
-  background-color: transparent;
-  color: #EF5823;
-  box-shadow: none;
+  height: 26px;
+  font-size: 14px;
+  padding: 6px 12px;
+  background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
+  color: white;
 }
 
 .c79:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
@@ -687,64 +661,7 @@ exports[`renders correctly 1`] = `
   cursor: not-allowed;
 }
 
-.c86 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 16px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-family: inherit;
-  font-size: 18px;
-  font-weight: 700;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-letter-spacing: 0.03em;
-  -moz-letter-spacing: 0.03em;
-  -ms-letter-spacing: 0.03em;
-  letter-spacing: 0.03em;
-  line-height: 1;
-  opacity: 1;
-  outline: 0;
-  -webkit-transition: background-color 0.2s,opacity 0.2s;
-  transition: background-color 0.2s,opacity 0.2s;
-  height: 26px;
-  font-size: 14px;
-  padding: 6px 12px;
-  background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
-  color: white;
-}
-
-.c86:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
-  opacity: 0.65;
-}
-
-.c86:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
-  opacity: 0.85;
-  -webkit-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  transform: translateY(1px);
-  box-shadow: none;
-}
-
-.c86:disabled,
-.c86.pancake-button--disabled {
-  background: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
-  opacity: 0.5;
-  border-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
-  box-shadow: none;
-  color: #BDC2C4;
-  cursor: not-allowed;
-}
-
-.c33 {
+.c76 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -755,42 +672,19 @@ exports[`renders correctly 1`] = `
   align-items: center;
 }
 
-.c33 svg {
+.c76 svg {
   -webkit-transition: -webkit-transform 0.3s;
   -webkit-transition: transform 0.3s;
   transition: transform 0.3s;
 }
 
-.c33:hover svg {
+.c76:hover svg {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.c42 {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  display: none;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  position: absolute;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-  left: 50%;
-  bottom: auto;
-  background-color: #FFFFFF;
-  box-shadow: 0px 2px 12px -8px rgba(25,19,38,0.1),0px 1px 1px rgba(25,19,38,0.05);
-  padding: 16px;
-  max-height: 400px;
-  overflow-y: auto;
-  z-index: 10;
-  border-radius: 4px;
-}
-
-.c82 {
+.c72 {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -813,25 +707,25 @@ exports[`renders correctly 1`] = `
   border-radius: 4px;
 }
 
-.c37 {
+.c67 {
   position: relative;
 }
 
-.c37:hover .c41,
-.c37:focus-within .c41 {
+.c67:hover .c71,
+.c67:focus-within .c71 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c44 {
+.c74 {
   color: #272727;
   padding: 0 8px;
   border-radius: 8px;
 }
 
-.c72 {
+.c60 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -845,7 +739,7 @@ exports[`renders correctly 1`] = `
   width: fit-content;
 }
 
-.c72:hover {
+.c60:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -944,7 +838,7 @@ exports[`renders correctly 1`] = `
   border-radius: 16px;
 }
 
-.c51 {
+.c38 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -964,11 +858,11 @@ exports[`renders correctly 1`] = `
   height: 42px;
 }
 
-.c51:hover {
+.c38:hover {
   background: #EFF4F5;
 }
 
-.c49 {
+.c36 {
   padding: 16px;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -984,11 +878,11 @@ exports[`renders correctly 1`] = `
   -ms-overflow-style: none;
 }
 
-.c49::-webkit-scrollbar {
+.c36::-webkit-scrollbar {
   display: none;
 }
 
-.c53 {
+.c40 {
   padding: 16px;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -1004,11 +898,11 @@ exports[`renders correctly 1`] = `
   -ms-overflow-style: none;
 }
 
-.c53::-webkit-scrollbar {
+.c40::-webkit-scrollbar {
   display: none;
 }
 
-.c91 {
+.c84 {
   padding: 0;
   margin: 0;
   width: 48px;
@@ -1021,7 +915,7 @@ exports[`renders correctly 1`] = `
   justify-content: center;
 }
 
-.c60 {
+.c47 {
   background: linear-gradient(79.86deg,rgba(255,98,63,0.76) 3.11%,rgba(255,47,159,0.67) 125.94%);
   height: -webkit-min-content;
   height: -moz-min-content;
@@ -1030,7 +924,7 @@ exports[`renders correctly 1`] = `
   margin: 34px auto 50px;
 }
 
-.c69 {
+.c57 {
   list-style: none;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -1045,8 +939,8 @@ exports[`renders correctly 1`] = `
   padding-right: 16px;
 }
 
-.c69 li,
-.c69 a {
+.c57 li,
+.c57 a {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -1055,17 +949,16 @@ exports[`renders correctly 1`] = `
   width: max-content;
 }
 
-.c70 {
+.c58 {
   line-height: 25px;
 }
 
-.c64 {
+.c51 {
   margin-bottom: 24px;
-  border-bottom-width: 1px solid;
-  border-color: #E7E3EB;
+  border-bottom: 1px solid #E7E3EB;
 }
 
-.c77 {
+.c65 {
   border-color: #E7E3EB;
   border-top-width: 1px;
   border-bottom-width: 1px;
@@ -1074,9 +967,9 @@ exports[`renders correctly 1`] = `
   margin-bottom: 24px;
 }
 
-.c89 {
+.c82 {
   height: 100%;
-  width: 168px;
+  width: 100%;
   gap: 12px;
   -webkit-flex-wrap: wrap-reverse;
   -ms-flex-wrap: wrap-reverse;
@@ -1089,18 +982,19 @@ exports[`renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin: 20px 0;
 }
 
-.c73 {
+.c61 {
   color: #272727;
 }
 
-.c87 {
+.c80 {
   background: #FFFFFF;
   height: 30px;
 }
 
-.c87 a {
+.c80 a {
   color: rgba(32,32,32,0.5);
   font-size: 12px;
 }
@@ -1203,7 +1097,7 @@ exports[`renders correctly 1`] = `
   z-index: 20;
 }
 
-.c56 {
+.c43 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1212,7 +1106,7 @@ exports[`renders correctly 1`] = `
   background-color: #FAF5F2;
 }
 
-.c57 {
+.c44 {
   background-color: #FAF5F2;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -1236,7 +1130,7 @@ exports[`renders correctly 1`] = `
 
 @media screen and (min-width:852px) {
   .c10 {
-    margin-left: 68px;
+    margin-left: px;
   }
 }
 
@@ -1250,7 +1144,7 @@ exports[`renders correctly 1`] = `
 
 @media screen and (min-width:1200px) {
   .c10 {
-    margin-left: 137px;
+    margin-left: 71px;
   }
 }
 
@@ -1259,7 +1153,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c47 {
+  .c34 {
     padding-left: 0px;
   }
 }
@@ -1269,9 +1163,14 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c58 {
-    padding: 32px 24px 24px 64px;
+  .c45 {
     margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width:852px) {
+  .c45 {
+    padding: 32px 24px 24px 64px;
   }
 }
 
@@ -1280,7 +1179,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c61 {
+  .c48 {
     width: 1370px;
   }
 }
@@ -1290,7 +1189,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c63 {
+  .c50 {
     display: none;
   }
 }
@@ -1300,7 +1199,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c66 {
+  .c54 {
     display: block;
   }
 }
@@ -1310,17 +1209,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c83 {
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width:370px) {
-
-}
-
-@media screen and (min-width:576px) {
-  .c52 {
+  .c39 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1333,7 +1222,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c62 {
+  .c49 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -1345,11 +1234,11 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c68 {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+  .c56 {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-flex-basis: calc(100% - 200px);
     -ms-flex-preferred-size: calc(100% - 200px);
     flex-basis: calc(100% - 200px);
@@ -1357,7 +1246,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:852px) {
-  .c68 {
+  .c56 {
     -webkit-flex-basis: 47%;
     -ms-flex-preferred-size: 47%;
     flex-basis: 47%;
@@ -1369,10 +1258,14 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c76 {
-    -webkit-order: 3;
-    -ms-flex-order: 3;
-    order: 3;
+  .c64 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
@@ -1381,7 +1274,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c78 {
+  .c66 {
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
@@ -1393,7 +1286,7 @@ exports[`renders correctly 1`] = `
 }
 
 @media screen and (min-width:576px) {
-  .c84 {
+  .c75 {
     -webkit-order: 2;
     -ms-flex-order: 2;
     order: 2;
@@ -1410,53 +1303,81 @@ exports[`renders correctly 1`] = `
   }
 }
 
+@media screen and (min-width:968px) {
+  .c52 {
+    width: 160px;
+  }
+
+  .c52 svg {
+    display: block;
+  }
+}
+
 @media screen and (min-width:576px) {
 
 }
 
 @media screen and (min-width:576px) {
-  .c53 {
+  .c40 {
     display: none;
   }
 }
 
+@media screen and (min-width:576px) {
+  .c84 {
+    width: 39px;
+    height: 39px;
+  }
+}
+
 @media screen and (min-width:852px) {
-  .c60 {
+  .c84 {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media screen and (min-width:852px) {
+  .c47 {
     margin: 34px;
-    height: 162px;
+    height: 184px;
   }
 }
 
 @media screen and (min-width:576px) {
-  .c77 {
+  .c65 {
     border-top-width: 0;
     border-bottom-width: 0;
     padding: 0 0;
-    margin-bottom: 0;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width:852px) {
+  .c65 {
+    margin-bottom: 44px;
   }
 }
 
 @media screen and (min-width:370px) {
-  .c89 {
+  .c82 {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
-    width: 336px;
     gap: 24px;
-    margin-top: 20px;
   }
 }
 
 @media screen and (min-width:576px) {
-  .c89 {
+  .c82 {
     margin-top: 0;
-    width: 168px;
-    gap: 12px;
+    width: 100%;
+    gap: 10px;
   }
 }
 
 @media screen and (min-width:852px) {
-  .c89 {
+  .c82 {
     width: 336px;
     gap: 24px;
   }
@@ -1482,7 +1403,7 @@ exports[`renders correctly 1`] = `
 
 @media screen and (min-width:1200px) {
   .c2 {
-    padding: 0 121px 0 191px;
+    padding: 0 48px;
   }
 }
 
@@ -1522,13 +1443,14 @@ exports[`renders correctly 1`] = `
                     src="/images/buffet-logo.png"
                   />
                   <svg
-                    height="17"
-                    viewBox="0 0 59 17"
-                    width="59"
+                    fill="none"
+                    height="21"
+                    viewBox="0 0 113 21"
+                    width="113"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M0.264205 16H6.47869C9.74574 16 11.4858 14.2955 11.4858 11.9801C11.4858 9.82812 9.9446 8.52841 8.28977 8.45028V8.30824C9.80256 7.96733 10.9176 6.89489 10.9176 5.18324C10.9176 3.00284 9.2983 1.45455 6.08807 1.45455H0.264205V16ZM3.33949 13.4858V9.62216H5.91761C7.39489 9.62216 8.31108 10.4744 8.31108 11.6747C8.31108 12.7685 7.56534 13.4858 5.84659 13.4858H3.33949ZM3.33949 7.54119V3.94034H5.67614C7.03977 3.94034 7.81392 4.64347 7.81392 5.6946C7.81392 6.84517 6.87642 7.54119 5.61932 7.54119H3.33949ZM20.4258 11.3551C20.4329 12.8182 19.4315 13.5852 18.3448 13.5852C17.2013 13.5852 16.4627 12.7827 16.4556 11.4972V5.09091H13.43V12.0369C13.4371 14.5866 14.9286 16.142 17.1232 16.142C18.7638 16.142 19.9428 15.2969 20.4329 14.0185H20.5465V16H23.4513V5.09091H20.4258V11.3551ZM31.7379 5.09091H29.5717V4.35938C29.5717 3.62074 29.87 3.1875 30.7578 3.1875C31.12 3.1875 31.4893 3.26562 31.7308 3.34375L32.2635 1.07102C31.8871 0.957386 31.0561 0.772726 30.1257 0.772726C28.0732 0.772726 26.5462 1.9304 26.5462 4.30256V5.09091H25.005V7.36364H26.5462V16H29.5717V7.36364H31.7379V5.09091ZM39.4528 5.09091H37.2866V4.35938C37.2866 3.62074 37.5849 3.1875 38.4727 3.1875C38.8349 3.1875 39.2042 3.26562 39.4457 3.34375L39.9783 1.07102C39.6019 0.957386 38.771 0.772726 37.8406 0.772726C35.788 0.772726 34.261 1.9304 34.261 4.30256V5.09091H32.7198V7.36364H34.261V16H37.2866V7.36364H39.4528V5.09091ZM45.8821 16.2131C48.581 16.2131 50.3991 14.8991 50.8253 12.875L48.027 12.6903C47.7216 13.5213 46.9403 13.9545 45.9318 13.9545C44.419 13.9545 43.4602 12.9531 43.4602 11.3267V11.3196H50.8892V10.4886C50.8892 6.78125 48.6449 4.94886 45.7614 4.94886C42.5511 4.94886 40.4702 7.22869 40.4702 10.5952C40.4702 14.054 42.5227 16.2131 45.8821 16.2131ZM43.4602 9.4446C43.5241 8.2017 44.4688 7.20739 45.8111 7.20739C47.125 7.20739 48.0341 8.14489 48.0412 9.4446H43.4602ZM58.6662 5.09091H56.6136V2.47727H53.5881V5.09091H52.0966V7.36364H53.5881V13.0455C53.5739 15.1832 55.0298 16.2415 57.2244 16.1491C58.0057 16.1207 58.5597 15.9645 58.8651 15.8651L58.3892 13.6136C58.2401 13.642 57.9205 13.7131 57.6364 13.7131C57.0327 13.7131 56.6136 13.4858 56.6136 12.6477V7.36364H58.6662V5.09091Z"
+                      d="M0.264205 16H6.47869C9.74574 16 11.4858 14.2955 11.4858 11.9801C11.4858 9.82812 9.9446 8.52841 8.28977 8.45028V8.30824C9.80256 7.96733 10.9176 6.89489 10.9176 5.18324C10.9176 3.00284 9.2983 1.45455 6.08807 1.45455H0.264205V16ZM3.33949 13.4858V9.62216H5.91761C7.39489 9.62216 8.31108 10.4744 8.31108 11.6747C8.31108 12.7685 7.56534 13.4858 5.84659 13.4858H3.33949ZM3.33949 7.54119V3.94034H5.67614C7.03977 3.94034 7.81392 4.64347 7.81392 5.6946C7.81392 6.84517 6.87642 7.54119 5.61932 7.54119H3.33949ZM20.4258 11.3551C20.4329 12.8182 19.4315 13.5852 18.3448 13.5852C17.2013 13.5852 16.4627 12.7827 16.4556 11.4972V5.09091H13.43V12.0369C13.4371 14.5866 14.9286 16.142 17.1232 16.142C18.7638 16.142 19.9428 15.2969 20.4329 14.0185H20.5465V16H23.4513V5.09091H20.4258V11.3551ZM31.7379 5.09091H29.5717V4.35938C29.5717 3.62074 29.87 3.1875 30.7578 3.1875C31.12 3.1875 31.4893 3.26562 31.7308 3.34375L32.2635 1.07102C31.8871 0.957386 31.0561 0.772726 30.1257 0.772726C28.0732 0.772726 26.5462 1.9304 26.5462 4.30256V5.09091H25.005V7.36364H26.5462V16H29.5717V7.36364H31.7379V5.09091ZM39.4528 5.09091H37.2866V4.35938C37.2866 3.62074 37.5849 3.1875 38.4727 3.1875C38.8349 3.1875 39.2042 3.26562 39.4457 3.34375L39.9783 1.07102C39.6019 0.957386 38.771 0.772726 37.8406 0.772726C35.788 0.772726 34.261 1.9304 34.261 4.30256V5.09091H32.7198V7.36364H34.261V16H37.2866V7.36364H39.4528V5.09091ZM45.8821 16.2131C48.581 16.2131 50.3991 14.8991 50.8253 12.875L48.027 12.6903C47.7216 13.5213 46.9403 13.9545 45.9318 13.9545C44.419 13.9545 43.4602 12.9531 43.4602 11.3267V11.3196H50.8892V10.4886C50.8892 6.78125 48.6449 4.94886 45.7614 4.94886C42.5511 4.94886 40.4702 7.22869 40.4702 10.5952C40.4702 14.054 42.5227 16.2131 45.8821 16.2131ZM43.4602 9.4446C43.5241 8.2017 44.4688 7.20739 45.8111 7.20739C47.125 7.20739 48.0341 8.14489 48.0412 9.4446H43.4602ZM58.6662 5.09091H56.6136V2.47727H53.5881V5.09091H52.0966V7.36364H53.5881V13.0455C53.5739 15.1832 55.0298 16.2415 57.2244 16.1491C58.0057 16.1207 58.5597 15.9645 58.8651 15.8651L58.3892 13.6136C58.2401 13.642 57.9205 13.7131 57.6364 13.7131C57.0327 13.7131 56.6136 13.4858 56.6136 12.6477V7.36364H58.6662V5.09091ZM68.5845 5.63778H71.532C71.4893 3.04545 69.3587 1.25568 66.12 1.25568C62.9311 1.25568 60.5945 3.01705 60.6087 5.65909C60.6016 7.80398 62.1143 9.03267 64.5717 9.62216L66.1555 10.0199C67.7393 10.4034 68.62 10.858 68.6271 11.8381C68.62 12.9034 67.6115 13.6278 66.049 13.6278C64.451 13.6278 63.3004 12.8892 63.201 11.4332H60.2251C60.3033 14.5795 62.5547 16.206 66.0845 16.206C69.6357 16.206 71.7237 14.5085 71.7308 11.8452C71.7237 9.4233 69.8984 8.13778 67.37 7.5696L66.0632 7.2571C64.799 6.96591 63.7408 6.49716 63.7621 5.45312C63.7621 4.51562 64.593 3.8267 66.0987 3.8267C67.5689 3.8267 68.4709 4.49432 68.5845 5.63778ZM75.8945 16H79.0906L80.9656 9.1392H81.1005L82.9755 16H86.1786L89.1403 5.09091H86.0863L84.4244 12.3778H84.332L82.5423 5.09091H79.538L77.7766 12.4205H77.6772L75.9869 5.09091H72.9258L75.8945 16ZM93.8651 16.206C95.4773 16.206 96.5213 15.5028 97.054 14.4872H97.1392V16H100.009V8.64205C100.009 6.04261 97.8068 4.94886 95.3778 4.94886C92.7642 4.94886 91.0455 6.19886 90.6264 8.1875L93.4247 8.41477C93.6307 7.69034 94.277 7.15767 95.3636 7.15767C96.3935 7.15767 96.983 7.67614 96.983 8.57102V8.61364C96.983 9.31676 96.2372 9.40909 94.3409 9.59375C92.1818 9.79261 90.2429 10.517 90.2429 12.9531C90.2429 15.1122 91.7841 16.206 93.8651 16.206ZM94.7315 14.1179C93.8011 14.1179 93.1335 13.6847 93.1335 12.8537C93.1335 12.0014 93.8366 11.5824 94.902 11.4332C95.5625 11.3409 96.642 11.1847 97.0043 10.9432V12.1009C97.0043 13.2443 96.0597 14.1179 94.7315 14.1179ZM102.356 20.0909H105.381V14.2528H105.474C105.893 15.1619 106.809 16.1776 108.57 16.1776C111.056 16.1776 112.995 14.2102 112.995 10.5597C112.995 6.80966 110.971 4.94886 108.577 4.94886C106.752 4.94886 105.879 6.03551 105.474 6.9233H105.339V5.09091H102.356V20.0909ZM105.317 10.5455C105.317 8.59943 106.141 7.35653 107.612 7.35653C109.11 7.35653 109.906 8.65625 109.906 10.5455C109.906 12.4489 109.096 13.7699 107.612 13.7699C106.156 13.7699 105.317 12.4915 105.317 10.5455Z"
                       fill="black"
                     />
                   </svg>
@@ -1831,357 +1753,25 @@ exports[`renders correctly 1`] = `
             class="c30 c31"
             height="100%"
           >
-            <div
-              class="c32"
-            >
-              <a
-                class="c33"
-                href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
-                target="_blank"
-              >
-                <svg
-                  class="c34"
-                  color="text"
-                  viewBox="0 0 90 90"
-                  width="24px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle
-                    cx="45"
-                    cy="45"
-                    fill="url(#paint0_linear_pancakeround)"
-                    r="45"
-                  />
-                  <path
-                    clip-rule="evenodd"
-                    d="M15.7703 49.9442C15.7626 50.1122 15.7587 50.2809 15.7587 50.4501C15.7587 51.0897 15.8144 51.7214 15.923 52.3435H15.7587V53.3228C15.7587 53.8008 15.7898 54.2744 15.8508 54.7428C17.0423 63.8844 29.6377 71.0772 45 71.0772C60.3623 71.0772 72.9577 63.8844 74.1492 54.7428C74.2102 54.2744 74.2413 53.8008 74.2413 53.3228V52.3435H74.077C74.1856 51.7214 74.2413 51.0897 74.2413 50.4501C74.2413 50.2809 74.2374 50.1122 74.2297 49.9442C73.7886 40.3727 60.8709 32.6957 45 32.6957C29.1291 32.6957 16.2114 40.3727 15.7703 49.9442ZM13.3688 49.9442C13.5863 44.1042 17.5547 39.1986 23.0781 35.845C28.8037 32.3686 36.5601 30.2964 45 30.2964C53.4399 30.2964 61.1964 32.3686 66.9219 35.845C72.4453 39.1986 76.4137 44.1042 76.6312 49.9442H76.6406V53.3228C76.6406 59.3853 72.6041 64.4779 66.9219 67.9279C61.1964 71.4043 53.4399 73.4765 45 73.4765C36.5601 73.4765 28.8037 71.4043 23.0781 67.9279C17.3959 64.4779 13.3594 59.3853 13.3594 53.3228V49.9442H13.3688Z"
-                    fill="#606063"
-                    fill-rule="evenodd"
-                  />
-                  <path
-                    d="M74.2412 53.3233C74.2412 63.1287 61.1494 71.0776 44.9999 71.0776C28.8503 71.0776 15.7585 63.1287 15.7585 53.3233V50.5127H74.2412V53.3233Z"
-                    fill="#BEBEBE"
-                  />
-                  <path
-                    d="M74.2412 50.4502C74.2412 60.2557 61.1494 68.2046 44.9999 68.2046C28.8503 68.2046 15.7585 60.2557 15.7585 50.4502C15.7585 40.6447 28.8503 32.6958 44.9999 32.6958C61.1494 32.6958 74.2412 40.6447 74.2412 50.4502Z"
-                    fill="#FAF9FA"
-                  />
-                  <path
-                    clip-rule="evenodd"
-                    d="M20.2578 45.4345C20.2577 45.4456 20.2577 45.4567 20.2577 45.4679C20.2577 46.2752 20.3747 47.0659 20.5989 47.8338H20.2574V48.8736C20.2574 49.3326 20.2953 49.7861 20.3691 50.2332C21.4839 56.9839 30.8104 62.2532 42.1508 62.2532C53.4912 62.2532 62.8178 56.9839 63.9326 50.2332C64.0064 49.7861 64.0442 49.3326 64.0442 48.8736V47.8338H63.7032C63.9213 47.0868 64.038 46.3183 64.0442 45.5339C64.0444 45.5119 64.0445 45.4899 64.0445 45.4679C64.0445 45.4567 64.0444 45.4456 64.0444 45.4345C64.015 38.0605 54.2243 32.0883 42.1511 32.0883C30.0779 32.0883 20.2872 38.0605 20.2578 45.4345ZM17.8585 45.4345H17.8582V48.8736C17.8582 53.7204 21.0631 57.7199 25.4188 60.3817C29.8156 63.0687 35.7372 64.6525 42.1508 64.6525C48.5644 64.6525 54.4861 63.0687 58.8829 60.3817C63.2385 57.7199 66.4435 53.7204 66.4435 48.8736V45.5428C66.4437 45.5178 66.4438 45.4928 66.4438 45.4679C66.4438 40.621 63.2388 36.6216 58.8832 33.9598C54.4863 31.2728 48.5647 29.689 42.1511 29.689C35.7375 29.689 29.8158 31.2728 25.419 33.9598C21.0734 36.6155 17.8731 40.6027 17.8585 45.4345Z"
-                    fill="#633001"
-                    fill-rule="evenodd"
-                  />
-                  <path
-                    d="M64.0441 48.8738C64.0441 56.2631 54.2421 62.2534 42.1507 62.2534C30.0593 62.2534 20.2573 56.2631 20.2573 48.8738V45.7346H64.0441V48.8738Z"
-                    fill="#FEDC90"
-                  />
-                  <path
-                    d="M64.0441 45.4679C64.0441 52.8573 54.2421 58.8475 42.1507 58.8475C30.0593 58.8475 20.2573 52.8573 20.2573 45.4679C20.2573 38.0786 30.0593 32.0884 42.1507 32.0884C54.2421 32.0884 64.0441 38.0786 64.0441 45.4679Z"
-                    fill="#D1884F"
-                  />
-                  <path
-                    clip-rule="evenodd"
-                    d="M26.8557 38.2365C26.8556 38.2476 26.8556 38.2587 26.8556 38.2699C26.8556 39.0772 26.9726 39.8679 27.1968 40.6359H26.8553V41.6756C26.8553 42.1346 26.8932 42.5881 26.967 43.0352C28.0818 49.7859 37.4083 55.0552 48.7487 55.0552C60.0891 55.0552 69.4157 49.7859 70.5305 43.0352C70.6043 42.5881 70.6421 42.1346 70.6421 41.6756V40.6359H70.3011C70.5192 39.8888 70.6359 39.1203 70.6421 38.3359C70.6423 38.3139 70.6424 38.2919 70.6424 38.2699C70.6424 38.2587 70.6423 38.2476 70.6423 38.2365C70.6129 30.8625 60.8222 24.8903 48.749 24.8903C36.6758 24.8903 26.8851 30.8625 26.8557 38.2365ZM24.4564 38.2365H24.4561V41.6756C24.4561 46.5224 27.661 50.5219 32.0167 53.1837C36.4135 55.8707 42.3351 57.4545 48.7487 57.4545C55.1623 57.4545 61.084 55.8707 65.4808 53.1837C69.8364 50.5219 73.0414 46.5224 73.0414 41.6756V38.3448C73.0416 38.3198 73.0417 38.2948 73.0417 38.2699C73.0417 33.4231 69.8367 29.4236 65.4811 26.7618C61.0842 24.0748 55.1626 22.491 48.749 22.491C42.3354 22.491 36.4137 24.0748 32.0169 26.7618C27.6713 29.4175 24.471 33.4047 24.4564 38.2365Z"
-                    fill="#633001"
-                    fill-rule="evenodd"
-                  />
-                  <path
-                    d="M70.6422 41.6758C70.6422 49.0651 60.8402 55.0554 48.7488 55.0554C36.6575 55.0554 26.8555 49.0651 26.8555 41.6758V38.5366H70.6422V41.6758Z"
-                    fill="#FEDC90"
-                  />
-                  <path
-                    d="M70.6422 38.2699C70.6422 45.6593 60.8402 51.6495 48.7488 51.6495C36.6575 51.6495 26.8555 45.6593 26.8555 38.2699C26.8555 30.8806 36.6575 24.8904 48.7488 24.8904C60.8402 24.8904 70.6422 30.8806 70.6422 38.2699Z"
-                    fill="#D1884F"
-                  />
-                  <path
-                    clip-rule="evenodd"
-                    d="M20.2578 31.0385C20.2577 31.0496 20.2577 31.0607 20.2577 31.0719C20.2577 31.8792 20.3747 32.6699 20.5989 33.4379H20.2574V34.4776C20.2574 34.9366 20.2953 35.3901 20.3691 35.8372C21.4839 42.5879 30.8104 47.8572 42.1508 47.8572C53.4912 47.8572 62.8178 42.5879 63.9326 35.8372C64.0064 35.3901 64.0442 34.9366 64.0442 34.4776V33.4379H63.7032C63.9213 32.6908 64.038 31.9223 64.0442 31.1379C64.0444 31.1159 64.0445 31.0939 64.0445 31.0719C64.0445 31.0607 64.0444 31.0496 64.0444 31.0385C64.015 23.6645 54.2243 17.6923 42.1511 17.6923C30.0779 17.6923 20.2872 23.6645 20.2578 31.0385ZM17.8585 31.0385H17.8582V34.4776C17.8582 39.3244 21.0631 43.3239 25.4188 45.9857C29.8156 48.6727 35.7372 50.2565 42.1508 50.2565C48.5644 50.2565 54.4861 48.6727 58.8829 45.9857C63.2385 43.3239 66.4435 39.3244 66.4435 34.4776V31.1468C66.4437 31.1218 66.4438 31.0968 66.4438 31.0719C66.4438 26.2251 63.2388 22.2256 58.8832 19.5638C54.4863 16.8768 48.5647 15.293 42.1511 15.293C35.7375 15.293 29.8158 16.8768 25.419 19.5638C21.0734 22.2195 17.8731 26.2067 17.8585 31.0385Z"
-                    fill="#633001"
-                    fill-rule="evenodd"
-                  />
-                  <path
-                    d="M64.0441 34.4778C64.0441 41.8671 54.2421 47.8574 42.1507 47.8574C30.0593 47.8574 20.2573 41.8671 20.2573 34.4778V31.3386H64.0441V34.4778Z"
-                    fill="#FEDC90"
-                  />
-                  <path
-                    d="M64.0441 31.0719C64.0441 38.4613 54.2421 44.4515 42.1507 44.4515C30.0593 44.4515 20.2573 38.4613 20.2573 31.0719C20.2573 23.6826 30.0593 17.6924 42.1507 17.6924C54.2421 17.6924 64.0441 23.6826 64.0441 31.0719Z"
-                    fill="#D1884F"
-                  />
-                  <path
-                    clip-rule="evenodd"
-                    d="M25.4361 31.9044C25.4361 34.3714 27.2287 36.5809 30.0567 38.0676L28.0973 41.4614L28.0977 41.4617H28.0973V50.0509C28.0973 51.1867 29.018 52.1075 30.1538 52.1075C31.2896 52.1075 32.2104 51.1867 32.2104 50.0509V43.22L34.3184 39.5686C35.6663 39.8545 37.1133 40.0097 38.6192 40.0097C45.9 40.0097 51.8022 36.3808 51.8022 31.9044C51.8022 27.428 45.9 23.7991 38.6192 23.7991C31.3383 23.7991 25.4361 27.428 25.4361 31.9044Z"
-                    fill="url(#paint1_linear_pancakeround)"
-                    fill-rule="evenodd"
-                  />
-                  <path
-                    clip-rule="evenodd"
-                    d="M30.0569 38.0676C29.7437 37.9029 29.4431 37.7294 29.1563 37.5476C26.8538 36.0883 25.4363 34.0982 25.4363 31.9045C25.4363 27.428 31.3386 23.7991 38.6194 23.7991C45.9002 23.7991 51.8025 27.428 51.8025 31.9045C51.8025 36.3809 45.9002 40.0098 38.6194 40.0098C37.1135 40.0098 35.6666 39.8545 34.3187 39.5687L32.2106 43.22V50.0509C32.2106 51.1868 31.2899 52.1075 30.1541 52.1075C29.0183 52.1075 28.0975 51.1868 28.0975 50.0509V41.4617L30.0569 38.0676ZM25.9981 41.4978V50.0509C25.9981 52.3462 27.8588 54.2069 30.1541 54.2069C32.4493 54.2069 34.31 52.3462 34.31 50.0509V43.7826L35.4034 41.8887C36.4418 42.0334 37.5181 42.1092 38.6194 42.1092C42.584 42.1092 46.2738 41.1254 49.0408 39.4242C51.7735 37.7441 53.9019 35.1446 53.9019 31.9045C53.9019 28.6643 51.7735 26.0648 49.0408 24.3847C46.2738 22.6835 42.584 21.6997 38.6194 21.6997C34.6548 21.6997 30.965 22.6835 28.198 24.3847C25.4652 26.0648 23.3369 28.6643 23.3369 31.9045C23.3369 34.7481 24.9657 37.0898 27.2286 38.7677L26.2939 40.3867C26.2048 40.5358 26.1337 40.697 26.0835 40.8672C26.0221 41.0746 25.9943 41.2873 25.9981 41.4978Z"
-                    fill="#633001"
-                    fill-rule="evenodd"
-                  />
-                  <path
-                    d="M29.5544 28.4894C29.5544 30.8083 32.5084 32.6882 36.1524 32.6882C39.7964 32.6882 42.7505 30.8083 42.7505 28.4894C42.7505 26.1704 39.7964 24.2905 36.1524 24.2905C32.5084 24.2905 29.5544 26.1704 29.5544 28.4894Z"
-                    fill="#9E7200"
-                  />
-                  <path
-                    d="M29.5547 26.6899H42.7508V28.4894H29.5547V26.6899Z"
-                    fill="#9E7200"
-                  />
-                  <path
-                    d="M29.5544 26.6898C29.5544 29.0088 32.5084 30.8887 36.1524 30.8887C39.7964 30.8887 42.7505 29.0088 42.7505 26.6898C42.7505 24.3709 39.7964 22.491 36.1524 22.491C32.5084 22.491 29.5544 24.3709 29.5544 26.6898Z"
-                    fill="#F0B90B"
-                  />
-                  <path
-                    d="M33.6489 26.1838L35.5086 25.0003C35.9016 24.7502 36.4038 24.7502 36.7968 25.0003L38.6565 26.1838C39.0269 26.4195 39.0269 26.9602 38.6565 27.1959L36.7968 28.3794C36.4038 28.6295 35.9016 28.6295 35.5086 28.3794L33.6489 27.1959C33.2785 26.9602 33.2785 26.4195 33.6489 26.1838Z"
-                    fill="#9E7200"
-                  />
-                  <path
-                    clip-rule="evenodd"
-                    d="M30.3599 21.9496C31.9392 20.9446 33.9929 20.3916 36.1525 20.3916C38.3121 20.3916 40.3658 20.9446 41.9451 21.9496C43.4996 22.9389 44.8499 24.5636 44.8499 26.6899V28.4894C44.8499 30.6156 43.4996 32.2404 41.9451 33.2296C40.3658 34.2347 38.3121 34.7876 36.1525 34.7876C33.9929 34.7876 31.9392 34.2347 30.3599 33.2296C28.8054 32.2404 27.4551 30.6156 27.4551 28.4894V26.6899C27.4551 24.5636 28.8054 22.9389 30.3599 21.9496ZM36.1525 22.491C32.5085 22.491 29.5545 24.3709 29.5545 26.6899V28.4894C29.5545 30.8083 32.5085 32.6882 36.1525 32.6882C39.7965 32.6882 42.7505 30.8083 42.7505 28.4894V26.6899C42.7505 24.3709 39.7965 22.491 36.1525 22.491Z"
-                    fill="#633001"
-                    fill-rule="evenodd"
-                  />
-                  <defs>
-                    <lineargradient
-                      gradientUnits="userSpaceOnUse"
-                      id="paint0_linear_pancakeround"
-                      x1="45"
-                      x2="45"
-                      y1="0"
-                      y2="90"
-                    >
-                      <stop
-                        stop-color="#54DADE"
-                      />
-                      <stop
-                        offset="0.762157"
-                        stop-color="#24C7D6"
-                      />
-                    </lineargradient>
-                    <lineargradient
-                      gradientUnits="userSpaceOnUse"
-                      id="paint1_linear_pancakeround"
-                      x1="38.7618"
-                      x2="38.7618"
-                      y1="24.0704"
-                      y2="51.8948"
-                    >
-                      <stop
-                        stop-color="#9F4A08"
-                      />
-                      <stop
-                        offset="0.370494"
-                        stop-color="#7D3900"
-                      />
-                      <stop
-                        offset="1"
-                        stop-color="#8D4104"
-                      />
-                    </lineargradient>
-                  </defs>
-                </svg>
-                <div
-                  class="c35"
-                  color="textSubtle"
-                >
-                  $0.232
-                </div>
-              </a>
-            </div>
-            <div
-              class="c36"
-            >
-              <div
-                class="c37"
-              >
-                <button
-                  class="c38"
-                  scale="xs"
-                >
-                  <svg
-                    class="c39"
-                    color="textSubtleOpacity"
-                    viewBox="0 0 24 24"
-                    width="24px"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44C16.43 5.07 17.96 6.35 18.92 8ZM12 4.04C12.83 5.24 13.48 6.57 13.91 8H10.09C10.52 6.57 11.17 5.24 12 4.04ZM4.26 14C4.1 13.36 4 12.69 4 12C4 11.31 4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12C7.5 12.68 7.56 13.34 7.64 14H4.26ZM5.08 16H8.03C8.35 17.25 8.81 18.45 9.41 19.56C7.57 18.93 6.04 17.66 5.08 16ZM8.03 8H5.08C6.04 6.34 7.57 5.07 9.41 4.44C8.81 5.55 8.35 6.75 8.03 8ZM12 19.96C11.17 18.76 10.52 17.43 10.09 16H13.91C13.48 17.43 12.83 18.76 12 19.96ZM14.34 14H9.66C9.57 13.34 9.5 12.68 9.5 12C9.5 11.32 9.57 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12C14.5 12.68 14.43 13.34 14.34 14ZM14.59 19.56C15.19 18.45 15.65 17.25 15.97 16H18.92C17.96 17.65 16.43 18.93 14.59 19.56ZM16.36 14C16.44 13.34 16.5 12.68 16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.69 19.9 13.36 19.74 14H16.36Z"
-                    />
-                  </svg>
-                  <div
-                    class="c40"
-                    color="textSubtleOpacity"
-                  >
-                    EN-US
-                  </div>
-                </button>
-                <div
-                  class="c41 c42"
-                >
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English0
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English1
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English2
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English3
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English4
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English5
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English6
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English7
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English8
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English9
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English10
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English11
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English12
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English13
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English14
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English15
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English16
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English17
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English18
-                  </button>
-                  <button
-                    class="c43 c44"
-                    scale="md"
-                    style="min-height: 32px; height: auto;"
-                  >
-                    English19
-                  </button>
-                </div>
-              </div>
-            </div>
              
           </div>
         </div>
       </nav>
     </div>
     <div
-      class="c45 c46"
+      class="c32 c33"
     >
       <div
-        class="c47 c48 c49"
+        class="c34 c35 c36"
       >
         <div
-          class="c50"
+          class="c37"
         >
           <div
             class="c13"
           >
             <a
-              class="c51"
+              class="c38"
               href="/https://exchange.pancakeswap.finance"
             >
               Exchange
@@ -2189,13 +1779,13 @@ exports[`renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c50"
+          class="c37"
         >
           <div
             class="c13"
           >
             <a
-              class="c51"
+              class="c38"
               href="/https://exchange.pancakeswap.finance/#/pool"
             >
               Liquidity
@@ -2204,20 +1794,20 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <div
-        class="c47 c52 c53"
+        class="c34 c39 c40"
       >
         <div
-          class="c50"
+          class="c37"
         >
           <div
             class="c13"
           >
             <a
-              class="c51"
+              class="c38"
               href="/https://exchange.pancakeswap.finance/#/charts"
             >
               <svg
-                class="c54"
+                class="c41"
                 color="textSubtle"
                 viewBox="0 0 24 24"
                 width="20px"
@@ -2239,49 +1829,50 @@ exports[`renders correctly 1`] = `
       </div>
     </div>
     <div
-      class="c55 c56"
+      class="c42 c43"
     >
       <div
-        class="c57"
+        class="c44"
       >
         body
         <div
-          class="c58 c59 c60"
+          class="c45 c46 c47"
         >
           <div
-            class="c61 c62"
+            class="c48 c49"
             width="100%,,1370px"
           >
             <div
-              class="c63 c64"
+              class="c50 c51"
               display="block,,none"
             >
               <div
-                class="c6 c7 c8"
+                class="c6 c7 c52"
                 height="auto"
               >
                 <img
                   alt=""
-                  class="c65"
+                  class="c53"
                   scale="sm"
-                  size="130"
+                  size="32"
                   src="/images/buffet-logo.png"
                 />
                 <svg
-                  height="17"
-                  viewBox="0 0 59 17"
-                  width="59"
+                  fill="none"
+                  height="21"
+                  viewBox="0 0 113 21"
+                  width="113"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M0.264205 16H6.47869C9.74574 16 11.4858 14.2955 11.4858 11.9801C11.4858 9.82812 9.9446 8.52841 8.28977 8.45028V8.30824C9.80256 7.96733 10.9176 6.89489 10.9176 5.18324C10.9176 3.00284 9.2983 1.45455 6.08807 1.45455H0.264205V16ZM3.33949 13.4858V9.62216H5.91761C7.39489 9.62216 8.31108 10.4744 8.31108 11.6747C8.31108 12.7685 7.56534 13.4858 5.84659 13.4858H3.33949ZM3.33949 7.54119V3.94034H5.67614C7.03977 3.94034 7.81392 4.64347 7.81392 5.6946C7.81392 6.84517 6.87642 7.54119 5.61932 7.54119H3.33949ZM20.4258 11.3551C20.4329 12.8182 19.4315 13.5852 18.3448 13.5852C17.2013 13.5852 16.4627 12.7827 16.4556 11.4972V5.09091H13.43V12.0369C13.4371 14.5866 14.9286 16.142 17.1232 16.142C18.7638 16.142 19.9428 15.2969 20.4329 14.0185H20.5465V16H23.4513V5.09091H20.4258V11.3551ZM31.7379 5.09091H29.5717V4.35938C29.5717 3.62074 29.87 3.1875 30.7578 3.1875C31.12 3.1875 31.4893 3.26562 31.7308 3.34375L32.2635 1.07102C31.8871 0.957386 31.0561 0.772726 30.1257 0.772726C28.0732 0.772726 26.5462 1.9304 26.5462 4.30256V5.09091H25.005V7.36364H26.5462V16H29.5717V7.36364H31.7379V5.09091ZM39.4528 5.09091H37.2866V4.35938C37.2866 3.62074 37.5849 3.1875 38.4727 3.1875C38.8349 3.1875 39.2042 3.26562 39.4457 3.34375L39.9783 1.07102C39.6019 0.957386 38.771 0.772726 37.8406 0.772726C35.788 0.772726 34.261 1.9304 34.261 4.30256V5.09091H32.7198V7.36364H34.261V16H37.2866V7.36364H39.4528V5.09091ZM45.8821 16.2131C48.581 16.2131 50.3991 14.8991 50.8253 12.875L48.027 12.6903C47.7216 13.5213 46.9403 13.9545 45.9318 13.9545C44.419 13.9545 43.4602 12.9531 43.4602 11.3267V11.3196H50.8892V10.4886C50.8892 6.78125 48.6449 4.94886 45.7614 4.94886C42.5511 4.94886 40.4702 7.22869 40.4702 10.5952C40.4702 14.054 42.5227 16.2131 45.8821 16.2131ZM43.4602 9.4446C43.5241 8.2017 44.4688 7.20739 45.8111 7.20739C47.125 7.20739 48.0341 8.14489 48.0412 9.4446H43.4602ZM58.6662 5.09091H56.6136V2.47727H53.5881V5.09091H52.0966V7.36364H53.5881V13.0455C53.5739 15.1832 55.0298 16.2415 57.2244 16.1491C58.0057 16.1207 58.5597 15.9645 58.8651 15.8651L58.3892 13.6136C58.2401 13.642 57.9205 13.7131 57.6364 13.7131C57.0327 13.7131 56.6136 13.4858 56.6136 12.6477V7.36364H58.6662V5.09091Z"
+                    d="M0.264205 16H6.47869C9.74574 16 11.4858 14.2955 11.4858 11.9801C11.4858 9.82812 9.9446 8.52841 8.28977 8.45028V8.30824C9.80256 7.96733 10.9176 6.89489 10.9176 5.18324C10.9176 3.00284 9.2983 1.45455 6.08807 1.45455H0.264205V16ZM3.33949 13.4858V9.62216H5.91761C7.39489 9.62216 8.31108 10.4744 8.31108 11.6747C8.31108 12.7685 7.56534 13.4858 5.84659 13.4858H3.33949ZM3.33949 7.54119V3.94034H5.67614C7.03977 3.94034 7.81392 4.64347 7.81392 5.6946C7.81392 6.84517 6.87642 7.54119 5.61932 7.54119H3.33949ZM20.4258 11.3551C20.4329 12.8182 19.4315 13.5852 18.3448 13.5852C17.2013 13.5852 16.4627 12.7827 16.4556 11.4972V5.09091H13.43V12.0369C13.4371 14.5866 14.9286 16.142 17.1232 16.142C18.7638 16.142 19.9428 15.2969 20.4329 14.0185H20.5465V16H23.4513V5.09091H20.4258V11.3551ZM31.7379 5.09091H29.5717V4.35938C29.5717 3.62074 29.87 3.1875 30.7578 3.1875C31.12 3.1875 31.4893 3.26562 31.7308 3.34375L32.2635 1.07102C31.8871 0.957386 31.0561 0.772726 30.1257 0.772726C28.0732 0.772726 26.5462 1.9304 26.5462 4.30256V5.09091H25.005V7.36364H26.5462V16H29.5717V7.36364H31.7379V5.09091ZM39.4528 5.09091H37.2866V4.35938C37.2866 3.62074 37.5849 3.1875 38.4727 3.1875C38.8349 3.1875 39.2042 3.26562 39.4457 3.34375L39.9783 1.07102C39.6019 0.957386 38.771 0.772726 37.8406 0.772726C35.788 0.772726 34.261 1.9304 34.261 4.30256V5.09091H32.7198V7.36364H34.261V16H37.2866V7.36364H39.4528V5.09091ZM45.8821 16.2131C48.581 16.2131 50.3991 14.8991 50.8253 12.875L48.027 12.6903C47.7216 13.5213 46.9403 13.9545 45.9318 13.9545C44.419 13.9545 43.4602 12.9531 43.4602 11.3267V11.3196H50.8892V10.4886C50.8892 6.78125 48.6449 4.94886 45.7614 4.94886C42.5511 4.94886 40.4702 7.22869 40.4702 10.5952C40.4702 14.054 42.5227 16.2131 45.8821 16.2131ZM43.4602 9.4446C43.5241 8.2017 44.4688 7.20739 45.8111 7.20739C47.125 7.20739 48.0341 8.14489 48.0412 9.4446H43.4602ZM58.6662 5.09091H56.6136V2.47727H53.5881V5.09091H52.0966V7.36364H53.5881V13.0455C53.5739 15.1832 55.0298 16.2415 57.2244 16.1491C58.0057 16.1207 58.5597 15.9645 58.8651 15.8651L58.3892 13.6136C58.2401 13.642 57.9205 13.7131 57.6364 13.7131C57.0327 13.7131 56.6136 13.4858 56.6136 12.6477V7.36364H58.6662V5.09091ZM68.5845 5.63778H71.532C71.4893 3.04545 69.3587 1.25568 66.12 1.25568C62.9311 1.25568 60.5945 3.01705 60.6087 5.65909C60.6016 7.80398 62.1143 9.03267 64.5717 9.62216L66.1555 10.0199C67.7393 10.4034 68.62 10.858 68.6271 11.8381C68.62 12.9034 67.6115 13.6278 66.049 13.6278C64.451 13.6278 63.3004 12.8892 63.201 11.4332H60.2251C60.3033 14.5795 62.5547 16.206 66.0845 16.206C69.6357 16.206 71.7237 14.5085 71.7308 11.8452C71.7237 9.4233 69.8984 8.13778 67.37 7.5696L66.0632 7.2571C64.799 6.96591 63.7408 6.49716 63.7621 5.45312C63.7621 4.51562 64.593 3.8267 66.0987 3.8267C67.5689 3.8267 68.4709 4.49432 68.5845 5.63778ZM75.8945 16H79.0906L80.9656 9.1392H81.1005L82.9755 16H86.1786L89.1403 5.09091H86.0863L84.4244 12.3778H84.332L82.5423 5.09091H79.538L77.7766 12.4205H77.6772L75.9869 5.09091H72.9258L75.8945 16ZM93.8651 16.206C95.4773 16.206 96.5213 15.5028 97.054 14.4872H97.1392V16H100.009V8.64205C100.009 6.04261 97.8068 4.94886 95.3778 4.94886C92.7642 4.94886 91.0455 6.19886 90.6264 8.1875L93.4247 8.41477C93.6307 7.69034 94.277 7.15767 95.3636 7.15767C96.3935 7.15767 96.983 7.67614 96.983 8.57102V8.61364C96.983 9.31676 96.2372 9.40909 94.3409 9.59375C92.1818 9.79261 90.2429 10.517 90.2429 12.9531C90.2429 15.1122 91.7841 16.206 93.8651 16.206ZM94.7315 14.1179C93.8011 14.1179 93.1335 13.6847 93.1335 12.8537C93.1335 12.0014 93.8366 11.5824 94.902 11.4332C95.5625 11.3409 96.642 11.1847 97.0043 10.9432V12.1009C97.0043 13.2443 96.0597 14.1179 94.7315 14.1179ZM102.356 20.0909H105.381V14.2528H105.474C105.893 15.1619 106.809 16.1776 108.57 16.1776C111.056 16.1776 112.995 14.2102 112.995 10.5597C112.995 6.80966 110.971 4.94886 108.577 4.94886C106.752 4.94886 105.879 6.03551 105.474 6.9233H105.339V5.09091H102.356V20.0909ZM105.317 10.5455C105.317 8.59943 106.141 7.35653 107.612 7.35653C109.11 7.35653 109.906 8.65625 109.906 10.5455C109.906 12.4489 109.096 13.7699 107.612 13.7699C106.156 13.7699 105.317 12.4915 105.317 10.5455Z"
                     fill="#FFFFFF"
                   />
                 </svg>
               </div>
             </div>
             <div
-              class="c66"
+              class="c54"
               display="none,,block"
             >
               <div
@@ -2290,40 +1881,41 @@ exports[`renders correctly 1`] = `
               >
                 <img
                   alt=""
-                  class="c67"
+                  class="c55"
                   scale="sm"
                   size="62"
                   src="/images/buffet-logo.png"
                 />
                 <svg
-                  height="17"
-                  viewBox="0 0 59 17"
-                  width="59"
+                  fill="none"
+                  height="21"
+                  viewBox="0 0 113 21"
+                  width="113"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M0.264205 16H6.47869C9.74574 16 11.4858 14.2955 11.4858 11.9801C11.4858 9.82812 9.9446 8.52841 8.28977 8.45028V8.30824C9.80256 7.96733 10.9176 6.89489 10.9176 5.18324C10.9176 3.00284 9.2983 1.45455 6.08807 1.45455H0.264205V16ZM3.33949 13.4858V9.62216H5.91761C7.39489 9.62216 8.31108 10.4744 8.31108 11.6747C8.31108 12.7685 7.56534 13.4858 5.84659 13.4858H3.33949ZM3.33949 7.54119V3.94034H5.67614C7.03977 3.94034 7.81392 4.64347 7.81392 5.6946C7.81392 6.84517 6.87642 7.54119 5.61932 7.54119H3.33949ZM20.4258 11.3551C20.4329 12.8182 19.4315 13.5852 18.3448 13.5852C17.2013 13.5852 16.4627 12.7827 16.4556 11.4972V5.09091H13.43V12.0369C13.4371 14.5866 14.9286 16.142 17.1232 16.142C18.7638 16.142 19.9428 15.2969 20.4329 14.0185H20.5465V16H23.4513V5.09091H20.4258V11.3551ZM31.7379 5.09091H29.5717V4.35938C29.5717 3.62074 29.87 3.1875 30.7578 3.1875C31.12 3.1875 31.4893 3.26562 31.7308 3.34375L32.2635 1.07102C31.8871 0.957386 31.0561 0.772726 30.1257 0.772726C28.0732 0.772726 26.5462 1.9304 26.5462 4.30256V5.09091H25.005V7.36364H26.5462V16H29.5717V7.36364H31.7379V5.09091ZM39.4528 5.09091H37.2866V4.35938C37.2866 3.62074 37.5849 3.1875 38.4727 3.1875C38.8349 3.1875 39.2042 3.26562 39.4457 3.34375L39.9783 1.07102C39.6019 0.957386 38.771 0.772726 37.8406 0.772726C35.788 0.772726 34.261 1.9304 34.261 4.30256V5.09091H32.7198V7.36364H34.261V16H37.2866V7.36364H39.4528V5.09091ZM45.8821 16.2131C48.581 16.2131 50.3991 14.8991 50.8253 12.875L48.027 12.6903C47.7216 13.5213 46.9403 13.9545 45.9318 13.9545C44.419 13.9545 43.4602 12.9531 43.4602 11.3267V11.3196H50.8892V10.4886C50.8892 6.78125 48.6449 4.94886 45.7614 4.94886C42.5511 4.94886 40.4702 7.22869 40.4702 10.5952C40.4702 14.054 42.5227 16.2131 45.8821 16.2131ZM43.4602 9.4446C43.5241 8.2017 44.4688 7.20739 45.8111 7.20739C47.125 7.20739 48.0341 8.14489 48.0412 9.4446H43.4602ZM58.6662 5.09091H56.6136V2.47727H53.5881V5.09091H52.0966V7.36364H53.5881V13.0455C53.5739 15.1832 55.0298 16.2415 57.2244 16.1491C58.0057 16.1207 58.5597 15.9645 58.8651 15.8651L58.3892 13.6136C58.2401 13.642 57.9205 13.7131 57.6364 13.7131C57.0327 13.7131 56.6136 13.4858 56.6136 12.6477V7.36364H58.6662V5.09091Z"
+                    d="M0.264205 16H6.47869C9.74574 16 11.4858 14.2955 11.4858 11.9801C11.4858 9.82812 9.9446 8.52841 8.28977 8.45028V8.30824C9.80256 7.96733 10.9176 6.89489 10.9176 5.18324C10.9176 3.00284 9.2983 1.45455 6.08807 1.45455H0.264205V16ZM3.33949 13.4858V9.62216H5.91761C7.39489 9.62216 8.31108 10.4744 8.31108 11.6747C8.31108 12.7685 7.56534 13.4858 5.84659 13.4858H3.33949ZM3.33949 7.54119V3.94034H5.67614C7.03977 3.94034 7.81392 4.64347 7.81392 5.6946C7.81392 6.84517 6.87642 7.54119 5.61932 7.54119H3.33949ZM20.4258 11.3551C20.4329 12.8182 19.4315 13.5852 18.3448 13.5852C17.2013 13.5852 16.4627 12.7827 16.4556 11.4972V5.09091H13.43V12.0369C13.4371 14.5866 14.9286 16.142 17.1232 16.142C18.7638 16.142 19.9428 15.2969 20.4329 14.0185H20.5465V16H23.4513V5.09091H20.4258V11.3551ZM31.7379 5.09091H29.5717V4.35938C29.5717 3.62074 29.87 3.1875 30.7578 3.1875C31.12 3.1875 31.4893 3.26562 31.7308 3.34375L32.2635 1.07102C31.8871 0.957386 31.0561 0.772726 30.1257 0.772726C28.0732 0.772726 26.5462 1.9304 26.5462 4.30256V5.09091H25.005V7.36364H26.5462V16H29.5717V7.36364H31.7379V5.09091ZM39.4528 5.09091H37.2866V4.35938C37.2866 3.62074 37.5849 3.1875 38.4727 3.1875C38.8349 3.1875 39.2042 3.26562 39.4457 3.34375L39.9783 1.07102C39.6019 0.957386 38.771 0.772726 37.8406 0.772726C35.788 0.772726 34.261 1.9304 34.261 4.30256V5.09091H32.7198V7.36364H34.261V16H37.2866V7.36364H39.4528V5.09091ZM45.8821 16.2131C48.581 16.2131 50.3991 14.8991 50.8253 12.875L48.027 12.6903C47.7216 13.5213 46.9403 13.9545 45.9318 13.9545C44.419 13.9545 43.4602 12.9531 43.4602 11.3267V11.3196H50.8892V10.4886C50.8892 6.78125 48.6449 4.94886 45.7614 4.94886C42.5511 4.94886 40.4702 7.22869 40.4702 10.5952C40.4702 14.054 42.5227 16.2131 45.8821 16.2131ZM43.4602 9.4446C43.5241 8.2017 44.4688 7.20739 45.8111 7.20739C47.125 7.20739 48.0341 8.14489 48.0412 9.4446H43.4602ZM58.6662 5.09091H56.6136V2.47727H53.5881V5.09091H52.0966V7.36364H53.5881V13.0455C53.5739 15.1832 55.0298 16.2415 57.2244 16.1491C58.0057 16.1207 58.5597 15.9645 58.8651 15.8651L58.3892 13.6136C58.2401 13.642 57.9205 13.7131 57.6364 13.7131C57.0327 13.7131 56.6136 13.4858 56.6136 12.6477V7.36364H58.6662V5.09091ZM68.5845 5.63778H71.532C71.4893 3.04545 69.3587 1.25568 66.12 1.25568C62.9311 1.25568 60.5945 3.01705 60.6087 5.65909C60.6016 7.80398 62.1143 9.03267 64.5717 9.62216L66.1555 10.0199C67.7393 10.4034 68.62 10.858 68.6271 11.8381C68.62 12.9034 67.6115 13.6278 66.049 13.6278C64.451 13.6278 63.3004 12.8892 63.201 11.4332H60.2251C60.3033 14.5795 62.5547 16.206 66.0845 16.206C69.6357 16.206 71.7237 14.5085 71.7308 11.8452C71.7237 9.4233 69.8984 8.13778 67.37 7.5696L66.0632 7.2571C64.799 6.96591 63.7408 6.49716 63.7621 5.45312C63.7621 4.51562 64.593 3.8267 66.0987 3.8267C67.5689 3.8267 68.4709 4.49432 68.5845 5.63778ZM75.8945 16H79.0906L80.9656 9.1392H81.1005L82.9755 16H86.1786L89.1403 5.09091H86.0863L84.4244 12.3778H84.332L82.5423 5.09091H79.538L77.7766 12.4205H77.6772L75.9869 5.09091H72.9258L75.8945 16ZM93.8651 16.206C95.4773 16.206 96.5213 15.5028 97.054 14.4872H97.1392V16H100.009V8.64205C100.009 6.04261 97.8068 4.94886 95.3778 4.94886C92.7642 4.94886 91.0455 6.19886 90.6264 8.1875L93.4247 8.41477C93.6307 7.69034 94.277 7.15767 95.3636 7.15767C96.3935 7.15767 96.983 7.67614 96.983 8.57102V8.61364C96.983 9.31676 96.2372 9.40909 94.3409 9.59375C92.1818 9.79261 90.2429 10.517 90.2429 12.9531C90.2429 15.1122 91.7841 16.206 93.8651 16.206ZM94.7315 14.1179C93.8011 14.1179 93.1335 13.6847 93.1335 12.8537C93.1335 12.0014 93.8366 11.5824 94.902 11.4332C95.5625 11.3409 96.642 11.1847 97.0043 10.9432V12.1009C97.0043 13.2443 96.0597 14.1179 94.7315 14.1179ZM102.356 20.0909H105.381V14.2528H105.474C105.893 15.1619 106.809 16.1776 108.57 16.1776C111.056 16.1776 112.995 14.2102 112.995 10.5597C112.995 6.80966 110.971 4.94886 108.577 4.94886C106.752 4.94886 105.879 6.03551 105.474 6.9233H105.339V5.09091H102.356V20.0909ZM105.317 10.5455C105.317 8.59943 106.141 7.35653 107.612 7.35653C109.11 7.35653 109.906 8.65625 109.906 10.5455C109.906 12.4489 109.096 13.7699 107.612 13.7699C106.156 13.7699 105.317 12.4915 105.317 10.5455Z"
                     fill="#FFFFFF"
                   />
                 </svg>
               </div>
             </div>
             <div
-              class="c68"
+              class="c56"
             >
               <ul
-                class="c69"
+                class="c57"
               >
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   About
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://docs.pancakeswap.finance/contact-us"
                     rel="noreferrer noopener"
@@ -2333,10 +1925,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://pancakeswap.medium.com/"
                     rel="noreferrer noopener"
@@ -2346,10 +1938,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://docs.pancakeswap.finance/contact-us/telegram"
                     rel="noreferrer noopener"
@@ -2359,10 +1951,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://docs.pancakeswap.finance/tokenomics/cake"
                     rel="noreferrer noopener"
@@ -2372,19 +1964,19 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <span
-                    class="c73"
+                    class="c61"
                   >
                     —
                   </span>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c74 c72"
+                    class="c62 c60"
                     color="#EB4D4D"
                     href="https://pancakeswap.creator-spring.com/"
                     rel="noreferrer noopener"
@@ -2395,18 +1987,18 @@ exports[`renders correctly 1`] = `
                 </li>
               </ul>
               <ul
-                class="c69"
+                class="c57"
               >
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   Help
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="Support https://docs.pancakeswap.finance/contact-us/customer-support"
                     rel="noreferrer noopener"
@@ -2416,10 +2008,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://docs.pancakeswap.finance/help/troubleshooting"
                     rel="noreferrer noopener"
@@ -2429,10 +2021,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://docs.pancakeswap.finance/get-started"
                     rel="noreferrer noopener"
@@ -2443,18 +2035,18 @@ exports[`renders correctly 1`] = `
                 </li>
               </ul>
               <ul
-                class="c69"
+                class="c57"
               >
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   Developers
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://github.com/pancakeswap"
                     rel="noreferrer noopener"
@@ -2464,10 +2056,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://docs.pancakeswap.finance"
                     rel="noreferrer noopener"
@@ -2477,10 +2069,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty"
                     rel="noreferrer noopener"
@@ -2490,10 +2082,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
                     rel="noreferrer noopener"
@@ -2503,10 +2095,10 @@ exports[`renders correctly 1`] = `
                   </a>
                 </li>
                 <li
-                  class="c70"
+                  class="c58"
                 >
                   <a
-                    class="c71 c72"
+                    class="c59 c60"
                     color="#272727"
                     href="https://docs.pancakeswap.finance/hiring/become-a-chef"
                     rel="noreferrer noopener"
@@ -2518,25 +2110,26 @@ exports[`renders correctly 1`] = `
               </ul>
             </div>
             <div
-              class="c75"
+              class="c63"
             >
               <div
-                class="c76 c77"
-                order="1,,3"
+                class="c64 c65"
+                order="3,,1"
               >
                 <div
-                  class="c78"
+                  class="c66"
                   order="2,,1"
                 >
                   <div
-                    class="c37"
+                    class="c67"
                   >
                     <button
-                      class="c79"
+                      class="c68"
+                      height="32px"
                       scale="md"
                     >
                       <svg
-                        class="c80"
+                        class="c69"
                         color="#FFFFFF"
                         viewBox="0 0 24 24"
                         width="24px"
@@ -2547,151 +2140,151 @@ exports[`renders correctly 1`] = `
                         />
                       </svg>
                       <div
-                        class="c81"
+                        class="c70"
                         color="#FFFFFF"
                       >
                         EN-US
                       </div>
                     </button>
                     <div
-                      class="c41 c82"
+                      class="c71 c72"
                     >
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English0
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English1
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English2
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English3
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English4
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English5
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English6
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English7
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English8
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English9
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English10
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English11
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English12
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English13
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English14
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English15
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English16
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English17
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English18
                       </button>
                       <button
-                        class="c43 c44"
-                        scale="md"
+                        class="c73 c74"
+                        scale="sm"
                         style="min-height: 32px; height: auto;"
                       >
                         English19
@@ -2700,19 +2293,19 @@ exports[`renders correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="c83 c84"
+                  class="c75"
                   order="1,,2"
                 >
                   <div
-                    class="c50"
+                    class="c37"
                   >
                     <a
-                      class="c33"
+                      class="c76"
                       href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                       target="_blank"
                     >
                       <svg
-                        class="c34"
+                        class="c77"
                         color="text"
                         viewBox="0 0 90 90"
                         width="24px"
@@ -2854,7 +2447,7 @@ exports[`renders correctly 1`] = `
                         </defs>
                       </svg>
                       <div
-                        class="c85"
+                        class="c78"
                         color="#FFFFFF"
                       >
                         $0.232
@@ -2862,7 +2455,7 @@ exports[`renders correctly 1`] = `
                     </a>
                   </div>
                   <button
-                    class="c86 c87"
+                    class="c79 c80"
                     scale="xs"
                   >
                     <a
@@ -2876,12 +2469,12 @@ exports[`renders correctly 1`] = `
                 </div>
               </div>
               <div
-                class="c88 c89"
+                class="c81 c82"
                 order="2"
               >
                 <a
                   aria-label="Instagram"
-                  class="c90 c72 c91"
+                  class="c83 c60 c84"
                   color="primary"
                   href="https://instagram.com/pancakeswap_official"
                   rel="noreferrer noopener"
@@ -2904,7 +2497,7 @@ exports[`renders correctly 1`] = `
                 </a>
                 <a
                   aria-label="Twitter"
-                  class="c90 c72 c91"
+                  class="c83 c60 c84"
                   color="primary"
                   href="https://twitter.com/pancakeswap"
                   rel="noreferrer noopener"
@@ -2927,7 +2520,7 @@ exports[`renders correctly 1`] = `
                 </a>
                 <a
                   aria-label="Discord"
-                  class="c90 c72 c91"
+                  class="c83 c60 c84"
                   color="primary"
                   href="https://discord.gg/pancakeswap"
                   rel="noreferrer noopener"
@@ -2950,7 +2543,7 @@ exports[`renders correctly 1`] = `
                 </a>
                 <a
                   aria-label="Youtube"
-                  class="c90 c72 c91"
+                  class="c83 c60 c84"
                   color="primary"
                   href="https://youtube.com"
                   rel="noreferrer noopener"
@@ -2973,7 +2566,7 @@ exports[`renders correctly 1`] = `
                 </a>
                 <a
                   aria-label="Facebook"
-                  class="c92 c72 c91"
+                  class="c85 c60 c84"
                   color="primary"
                   href="https://facebook.com"
                   rel="noreferrer noopener"

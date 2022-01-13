@@ -27,6 +27,7 @@ const FooterButton = styled(Button)`
     font-size: 12px;
   }
 `;
+
 const MenuItem: React.FC<FooterProps> = ({
   items,
   currentLang,
@@ -37,16 +38,16 @@ const MenuItem: React.FC<FooterProps> = ({
   ...props
 }) => {
   return (
-    <StyledFooter p={["24px 16px", null, "32px 24px 24px 64px;"]} {...props} justifyContent="center">
+    <StyledFooter p={["24px 16px", null, null, "32px 24px 24px 64px;"]} {...props} justifyContent="center">
       <Flex flexDirection={["column", null, "row"]} justifyContent="space-between" width={["100%", null, "1370px"]}>
-        <StyledIconMobileContainer display={["block", null, "none"]}>
-          <BuffetLogoWithTextIcon size={130} />
+        <StyledIconMobileContainer pb="10px" display={["block", null, "none"]}>
+          <BuffetLogoWithTextIcon isResponsive={false} size={32} />
         </StyledIconMobileContainer>
         <Box display={["none", null, "block"]} mr={["10px"]}>
           <BuffetLogoWithTextIcon size={62} />
         </Box>
         <Flex
-          justifyContent={["space-around", null, "space-between"]}
+          justifyContent={["space-around", null, "flex-start"]}
           flexBasis={[null, null, "calc(100% - 200px)", "47%"]}
         >
           {items?.map((item) => (
@@ -75,9 +76,9 @@ const MenuItem: React.FC<FooterProps> = ({
         <Flex flexDirection="column">
           <StyledToolsContainer
             alignItems="baseline"
-            order={[1, null, 3]}
+            order={[3, null, 1]}
             flexDirection="row"
-            justifyContent="space-between"
+            justifyContent={["space-between", null, "flex-start"]}
           >
             <Flex order={[2, null, 1]} alignItems="center">
               <LangSelector
@@ -86,12 +87,15 @@ const MenuItem: React.FC<FooterProps> = ({
                 setLang={setLang}
                 color={darkColors.backgroundAlt as keyof Colors}
                 dropdownPosition="top-right"
+                targetButtonStyles={{ height: "32px", padding: "0 26px 0 0" }}
               />
             </Flex>
-            <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
-              <Box mr="20px">
-                <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.backgroundAlt as keyof Colors} />
-              </Box>
+            <Flex order={[1, null, 2]} justifyContent="space-between" alignItems="center">
+              {cakePriceUsd && (
+                <Box mr="20px">
+                  <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.backgroundAlt as keyof Colors} />
+                </Box>
+              )}
               <FooterButton scale="xs">
                 <a
                   rel="noreferrer"

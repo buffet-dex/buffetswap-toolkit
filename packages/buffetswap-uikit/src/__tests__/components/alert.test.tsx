@@ -19,9 +19,11 @@ it("renders correctly", () => {
 
     .c5 {
       color: #272727;
-      font-size: 16px;
+      font-size: 30px;
       font-weight: 700;
       line-height: 1.5;
+      margin-bottom: 14px;
+      font-size: 30px;
     }
 
     .c6 {
@@ -42,7 +44,7 @@ it("renders correctly", () => {
       background-color: linear-gradient(79.95deg,#FF623F 3.11%,#FF8C38 52.98%,#FF2F9F 126.12%);
       border-radius: 16px 0 0 16px;
       color: #FFFFFF;
-      padding: 12px;
+      padding: 35px 38px;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -90,6 +92,7 @@ it("renders correctly", () => {
           <div
             class="c5"
             color="text"
+            font-size="30px"
           >
             Alert title
           </div>

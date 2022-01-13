@@ -10,7 +10,7 @@ export const StyledFooter = styled(Flex)`
   margin: 34px auto 50px;
   ${({ theme }) => theme.mediaQueries.md} {
     margin: 34px;
-    height: 162px;
+    height: 184px;
   }
 `;
 
@@ -35,8 +35,7 @@ export const StyledListItem = styled.li`
 
 export const StyledIconMobileContainer = styled(Box)`
   margin-bottom: 24px;
-  border-bottom-width: 1px solid;
-  border-color: ${darkColors.cardBorder};
+  border-bottom: 1px solid ${darkColors.cardBorder};
 `;
 
 export const StyledToolsContainer = styled(Flex)`
@@ -50,27 +49,29 @@ export const StyledToolsContainer = styled(Flex)`
     border-top-width: 0;
     border-bottom-width: 0;
     padding: 0 0;
-    margin-bottom: 0;
+    margin-bottom: 24px;
+  }
+  ${({ theme }) => theme.mediaQueries.md} {
+    margin-bottom: 44px;
   }
 `;
 
 export const StyledSocialLinks = styled(SocialLinks)`
   height: 100%;
-  width: 168px;
+  width: 100%;
   gap: 12px;
   flex-wrap: wrap-reverse;
   align-items: flex-start;
   justify-content: center;
+  margin: 20px 0;
   ${({ theme }) => theme.mediaQueries.xs} {
     align-self: center;
-    width: 336px;
     gap: 24px;
-    margin-top: 20px;
   }
   ${({ theme }) => theme.mediaQueries.sm} {
     margin-top: 0;
-    width: 168px;
-    gap: 12px;
+    width: 100%;
+    gap: 10px;
   }
   ${({ theme }) => theme.mediaQueries.md} {
     width: 336px;

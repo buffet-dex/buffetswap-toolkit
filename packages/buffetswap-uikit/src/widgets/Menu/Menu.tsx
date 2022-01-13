@@ -8,11 +8,10 @@ import Footer from "../../components/Footer";
 import MenuItems from "../../components/MenuItems/MenuItems";
 import { SubMenuItems } from "../../components/SubMenuItems";
 import { useMatchBreakpoints } from "../../hooks";
-import CakePrice from "../../components/CakePrice/CakePrice";
 import Logo from "./components/Logo";
 import { MENU_HEIGHT, MOBILE_MENU_HEIGHT, TOP_BANNER_HEIGHT, TOP_BANNER_HEIGHT_MOBILE } from "./config";
 import { NavProps } from "./types";
-import LangSelector from "../../components/LangSelector/LangSelector";
+import { NetworkSelector } from "../../components/NetworkSelector";
 
 const Wrapper = styled.div`
   position: relative;
@@ -29,7 +28,7 @@ const StyledNav = styled.nav`
   transform: translate3d(0, 0, 0);
   padding: 24px 16px;
   ${({ theme }) => theme.mediaQueries.xxl} {
-    padding: 0 121px 0 191px;
+    padding: 0 48px;
   }
 `;
 const StyledNavContainer = styled(Flex)`
@@ -76,15 +75,18 @@ const Menu: React.FC<NavProps> = ({
   banner,
   globalMenu,
   isDark,
+  langs,
   currentLang,
   setLang,
+  networks,
+  currentNetwork,
+  setNetwork,
   cakePriceUsd,
   links,
   subLinks,
   footerLinks,
   activeItem,
   activeSubItem,
-  langs,
   children,
   buyCakeLabel,
 }) => {
@@ -141,7 +143,7 @@ const Menu: React.FC<NavProps> = ({
               <Logo size={60} isDark={isDark} href={homeLink?.href ?? "/"} />
               {!isMobile && (
                 <MenuItems
-                  ml={["24px", null, null, "68px", null, null, "137px"]}
+                  ml={["20px", null, null, "px", null, null, "71px"]}
                   items={links}
                   activeItem={activeItem}
                   activeSubItem={activeSubItem}
@@ -149,20 +151,18 @@ const Menu: React.FC<NavProps> = ({
               )}
             </Flex>
             <Flex alignItems="center" height="100%">
-              {!isMobile && cakePriceUsd && (
-                <Box mr="12px">
-                  <CakePrice cakePriceUsd={cakePriceUsd} />
+              {networks && (
+                <Box mt="4px" mr="16px">
+                  <NetworkSelector
+                    currentNetwork={currentNetwork !== undefined ? currentNetwork : ""}
+                    networks={networks ?? networks}
+                    setNetwork={setNetwork}
+                    buttonScale="xs"
+                    color="textSubtleOpacity"
+                    dropdownTextColor="textSubtle"
+                  />
                 </Box>
               )}
-              <Box mt="4px" mr="16px">
-                <LangSelector
-                  currentLang={currentLang}
-                  langs={langs}
-                  setLang={setLang}
-                  buttonScale="xs"
-                  color="textSubtleOpacity"
-                />
-              </Box>
               {userMenu} {globalMenu}
             </Flex>
           </StyledNavContainer>

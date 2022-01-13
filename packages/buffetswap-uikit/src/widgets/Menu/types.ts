@@ -9,6 +9,11 @@ export interface Language {
   language: string;
   locale: string;
 }
+export interface Network {
+  id: string;
+  network: string;
+  isSupported: boolean;
+}
 
 export interface LinkStatus {
   text: string;
@@ -31,4 +36,7 @@ export interface NavProps {
   buyCakeLabel: string;
   langs: Language[];
   setLang: (lang: Language) => void;
+  networks?: Network[];
+  currentNetwork?: string;
+  setNetwork?: (network: Network) => void;
 }

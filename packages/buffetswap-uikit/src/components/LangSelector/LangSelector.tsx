@@ -17,6 +17,7 @@ interface Props {
   dropdownPosition?: Position;
   buttonScale?: Scale;
   hideLanguage?: boolean;
+  targetButtonStyles?: { [key: string]: string };
 }
 
 const LangSelector: React.FC<Props> = ({
@@ -27,11 +28,17 @@ const LangSelector: React.FC<Props> = ({
   dropdownPosition = "bottom",
   buttonScale = "md",
   hideLanguage = false,
+  targetButtonStyles,
 }) => (
   <Dropdown
     position={dropdownPosition}
     target={
-      <Button scale={buttonScale} variant="text" startIcon={<LanguageIcon color={color} width="24px" />}>
+      <Button
+        scale={buttonScale}
+        variant="text"
+        startIcon={<LanguageIcon color={color} width="24px" />}
+        {...targetButtonStyles}
+      >
         {!hideLanguage && <Text color={color}>{currentLang?.toUpperCase()}</Text>}
       </Button>
     }

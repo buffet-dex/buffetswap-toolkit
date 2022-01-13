@@ -309,6 +309,7 @@ it("renders ConnectModal correctly", () => {
       flex-direction: column;
       max-height: 90vh;
       overflow-y: auto;
+      background: "#FFFFFF";
     }
 
     .c1 {
