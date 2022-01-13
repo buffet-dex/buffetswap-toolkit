@@ -16,6 +16,14 @@ export const StyledSocialLink = styled(Link)`
   background: rgba(255, 255, 255, 0.1);
   border-radius: 30px;
   justify-content: center;
+  ${({ theme }) => theme.mediaQueries.sm} {
+    width: 39px;
+    height: 39px;
+  }
+  ${({ theme }) => theme.mediaQueries.md} {
+    width: 48px;
+    height: 48px;
+  }
 `;
 
 const SocialLinks: React.FC<FlexProps> = ({ ...props }) => (

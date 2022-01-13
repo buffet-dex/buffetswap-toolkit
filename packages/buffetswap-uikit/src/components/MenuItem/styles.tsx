@@ -25,7 +25,7 @@ const StyledMenuItem = styled.a<StyledMenuItemProps>`
   display: flex;
   align-items: center;
   width: max-content;
-  color: ${({ theme, $isActive }) => ($isActive ? theme.colors.secondary : theme.colors.textSubtle)};
+  color: ${({ theme, $isActive }) => ($isActive ? theme.colors.primary : theme.colors.textSubtle)};
   font-size: 18px;
   font-weight: ${({ $isActive }) => ($isActive ? "700" : "500")};
   ${({ $statusColor, theme }) =>

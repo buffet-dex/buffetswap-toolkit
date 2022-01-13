@@ -48,7 +48,7 @@ const IconLabel = styled.div<ThemedIconLabel>`
   background-color: ${getThemeColor};
   border-radius: 16px 0 0 16px;
   color: ${({ theme }) => theme.alert.background};
-  padding: 12px;
+  padding: 35px 38px;
   display: flex;
 `;
 
@@ -84,7 +84,9 @@ const Alert: React.FC<AlertProps> = ({ title, children, variant, onClick }) => {
         <Icon color="currentColor" width="24px" />
       </IconLabel>
       <Details hasHandler={!!onClick}>
-        <Text bold>{title}</Text>
+        <Text mb="14px" fontSize="30px" bold>
+          {title}
+        </Text>
         {typeof children === "string" ? <Text as="p">{children}</Text> : children}
       </Details>
       {onClick && (
