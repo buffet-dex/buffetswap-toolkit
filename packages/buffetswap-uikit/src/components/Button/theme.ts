@@ -101,6 +101,12 @@ export const styleVariants = {
   [variants.CALCULATOR]: {
     backgroundColor: "primary",
     color: "white",
+    fontSize: "12px",
     borderRadius: "12px",
+    height: "24px",
+    padding: 0,
+    ":disabled": {
+      background: "transparent",
+    },
   },
 };
