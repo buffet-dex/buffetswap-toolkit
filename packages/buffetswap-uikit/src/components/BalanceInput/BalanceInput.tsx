@@ -49,7 +49,7 @@ const BalanceInput: React.FC<BalanceInputProps> = ({
             )}
           </Flex>
           {currencyValue && (
-            <Text fontSize="16px" bold textAlign="right" color="textSubtleOpacity" pr="48px">
+            <Text fontSize="12px" bold textAlign="right" color="textSubtleOpacity" pr="48px">
               {currencyValue}
             </Text>
           )}

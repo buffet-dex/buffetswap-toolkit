@@ -32,11 +32,11 @@ it("renders correctly", () => {
 
     .c5 {
       color: rgba(32,32,32,0.5);
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 1.5;
       padding-right: 48px;
-      font-size: 16px;
+      font-size: 12px;
       text-align: right;
     }
 
@@ -145,7 +145,7 @@ it("renders correctly", () => {
             <div
               class="c5"
               color="textSubtleOpacity"
-              font-size="16px"
+              font-size="12px"
             >
               15 USD
             </div>
@@ -193,11 +193,11 @@ it("renders correctly with unit prop", () => {
 
     .c7 {
       color: rgba(32,32,32,0.5);
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 1.5;
       padding-right: 48px;
-      font-size: 16px;
+      font-size: 12px;
       text-align: right;
     }
 
@@ -319,7 +319,7 @@ it("renders correctly with unit prop", () => {
             <div
               class="c7"
               color="textSubtleOpacity"
-              font-size="16px"
+              font-size="12px"
             >
               15 USD
             </div>
@@ -387,11 +387,11 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
 
     .c12 {
       color: rgba(32,32,32,0.5);
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 1.5;
       padding-right: 48px;
-      font-size: 16px;
+      font-size: 12px;
       text-align: right;
     }
 
@@ -612,7 +612,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
             <div
               class="c12"
               color="textSubtleOpacity"
-              font-size="16px"
+              font-size="12px"
             >
               15 USD
             </div>

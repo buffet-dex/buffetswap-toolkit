@@ -55,9 +55,5 @@ export const ModalContainer = styled(Box)<{ minWidth: string }>`
   ${({ theme }) => theme.mediaQueries.xs} {
     width: auto;
     min-width: ${({ minWidth }) => minWidth};
-    margin: 0 10px;
-  }
-  ${({ theme }) => theme.mediaQueries.md} {
-    width: 799px;
   }
 `;

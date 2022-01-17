@@ -368,13 +368,6 @@ it("renders ConnectModal correctly", () => {
       .c1 {
         width: auto;
         min-width: 320px;
-        margin: 0 10px;
-      }
-    }
-
-    @media screen and (min-width:852px) {
-      .c1 {
-        width: 799px;
       }
     }
 
