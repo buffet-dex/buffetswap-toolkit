@@ -6,9 +6,9 @@ import SocialLinks from "./Components/SocialLinks";
 export const StyledFooter = styled(Flex)`
   background: ${({ theme }) => theme.colors.backgroundAlt2};
   height: min-content;
-  border-radius: 35px;
   margin: 34px auto 50px;
   ${({ theme }) => theme.mediaQueries.md} {
+    border-radius: 35px;
     margin: 34px;
     height: 184px;
   }

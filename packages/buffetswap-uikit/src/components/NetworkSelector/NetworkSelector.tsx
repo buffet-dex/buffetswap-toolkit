@@ -8,7 +8,7 @@ import { Colors } from "../../theme";
 import { Network } from "./types";
 import { Position } from "../Dropdown/types";
 import { Scale } from "../Button/types";
-import { EthereumIcon, NetworkArrowDownIcon } from "../Svg";
+import { AvaxIcon, ChevronDownIcon } from "../Svg";
 
 interface Props {
   currentNetwork: string;
@@ -39,9 +39,14 @@ const NetworkSelector: React.FC<Props> = ({
   <Dropdown
     position={dropdownPosition}
     target={
-      <NetworkButton scale={buttonScale} variant="text" startIcon={<EthereumIcon />} endIcon={<NetworkArrowDownIcon />}>
+      <NetworkButton
+        scale={buttonScale}
+        variant="text"
+        startIcon={<AvaxIcon />}
+        endIcon={<ChevronDownIcon color="text" width="24px" />}
+      >
         {!hideNetwork && (
-          <Text color={color} margin="0 10px 0 4px" fontSize="16px" bold>
+          <Text color={color} ml="8px" fontSize="16px" bold>
             {currentNetwork}
           </Text>
         )}

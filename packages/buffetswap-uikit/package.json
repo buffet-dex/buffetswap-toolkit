@@ -1,6 +1,6 @@
 {
   "name": "@buffet-dex/uikit",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Set of UI components for Buffetswap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
