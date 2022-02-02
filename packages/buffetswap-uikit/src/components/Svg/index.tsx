@@ -12,6 +12,7 @@ export { default as ArrowLastIcon } from "./Icons/ArrowLast";
 export { default as ArrowUpIcon } from "./Icons/ArrowUp";
 export { default as ArrowUpDownIcon } from "./Icons/ArrowUpDown";
 export { default as AutoRenewIcon } from "./Icons/AutoRenew";
+export { default as AvaxIcon } from "./Icons/Avax";
 export { default as BinanceChainIcon } from "./Icons/BinanceChain";
 export { default as BinanceIcon } from "./Icons/Binance";
 export { default as BlockIcon } from "./Icons/Block";

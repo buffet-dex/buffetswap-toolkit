@@ -920,7 +920,6 @@ exports[`renders correctly 1`] = `
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  border-radius: 35px;
   margin: 34px auto 50px;
 }
 
@@ -1339,6 +1338,7 @@ exports[`renders correctly 1`] = `
 
 @media screen and (min-width:852px) {
   .c47 {
+    border-radius: 35px;
     margin: 34px;
     height: 184px;
   }
