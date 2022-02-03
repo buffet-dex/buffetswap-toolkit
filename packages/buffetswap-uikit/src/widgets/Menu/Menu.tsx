@@ -160,6 +160,7 @@ const Menu: React.FC<NavProps> = ({
                     buttonScale="xs"
                     color="textSubtleOpacity"
                     dropdownTextColor="textSubtle"
+                    hideNetwork={isMobile}
                   />
                 </Box>
               )}
